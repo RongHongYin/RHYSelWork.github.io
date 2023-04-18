@@ -1,0 +1,212 @@
+{
+  "data": {
+    "Catalog": {
+      "catalogOffer": {
+        "title": "Tchia",
+        "id": "ba56f77d52d74b81b3ccacc918177b48",
+        "namespace": "2e09c1d223094f3798f63873548c9454",
+        "countriesBlacklist": null,
+        "countriesWhitelist": null,
+        "developerDisplayName": "Awaceb",
+        "description": "A Tropical Open-World adventure. Climb, glide, swim, and sail your boat around a beautiful archipelago in this physics-driven sandbox. Take control of any animal or object you can find, and Jam on your fully playable Ukulele. A game inspired by New Caledonia.",
+        "effectiveDate": "2023-02-23T22:00:00.000Z",
+        "expiryDate": "2023-03-21T09:00:00.000Z",
+        "viewableDate": "2023-02-23T21:00:00.000Z",
+        "allowPurchaseForPartialOwned": false,
+        "offerType": "BASE_GAME",
+        "externalLinks": null,
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+          {
+            "type": "OfferImageTall",
+            "url": "https://cdn1.epicgames.com/offer/2e09c1d223094f3798f63873548c9454/portrait_1200x1600-30ac6c45fa9f00724591b1ca567d8655"
+          },
+          {
+            "type": "OfferImageWide",
+            "url": "https://cdn1.epicgames.com/offer/2e09c1d223094f3798f63873548c9454/landscape_2560x1440-c501d53b85613739cf655a1b5bc22a64"
+          },
+          {
+            "type": "CodeRedemption_340x440",
+            "url": "https://cdn1.epicgames.com/offer/2e09c1d223094f3798f63873548c9454/portrait_1200x1600-30ac6c45fa9f00724591b1ca567d8655"
+          },
+          {
+            "type": "Thumbnail",
+            "url": "https://cdn1.epicgames.com/offer/2e09c1d223094f3798f63873548c9454/portrait_1200x1600-30ac6c45fa9f00724591b1ca567d8655"
+          }
+        ],
+        "longDescription": null,
+        "seller": {
+          "id": "o-yrjx9sk66ym9ktjnjml6qzsyjhczdz",
+          "name": "Kepler Interactive"
+        },
+        "productSlug": "tchia",
+        "publisherDisplayName": "Kepler Interactive",
+        "releaseDate": "2023-03-21T09:00:00.000Z",
+        "urlSlug": "tchiaprepurchase",
+        "url": null,
+        "tags": [
+          {
+            "id": "1381",
+            "name": "探索",
+            "groupName": "genre"
+          },
+          {
+            "id": "19847",
+            "name": "成就",
+            "groupName": "epicfeature"
+          },
+          {
+            "id": "1307",
+            "name": "开放世界",
+            "groupName": "genre"
+          },
+          {
+            "id": "9547",
+            "name": "Windows",
+            "groupName": "platform"
+          },
+          {
+            "id": "1117",
+            "name": "冒险",
+            "groupName": "genre"
+          }
+        ],
+        "items": [
+          {
+            "id": "7de6ef9b07964f7fbafd5686f15666b9",
+            "namespace": "2e09c1d223094f3798f63873548c9454",
+            "releaseInfo": []
+          }
+        ],
+        "customAttributes": [
+          {
+            "key": "availableDate",
+            "value": "1679389200"
+          },
+          {
+            "key": "isPrepurchase",
+            "value": "true"
+          },
+          {
+            "key": "com.epicgames.app.productSlug",
+            "value": "tchia"
+          }
+        ],
+        "categories": [
+          {
+            "path": "games"
+          },
+          {
+            "path": "games/edition"
+          },
+          {
+            "path": "games/edition/base"
+          },
+          {
+            "path": "applications"
+          }
+        ],
+        "catalogNs": {
+          "parent": "3ed24a175aad48b782ecbb05e5048074",
+          "ageGatings": [
+            {
+              "ageControl": 12,
+              "descriptor": "약물,공포,언어의 부적절성,선정성,폭력성",
+              "elements": null,
+              "gameRating": "12세이용가",
+              "ratingImage": "https://cdn1.epicgames.com/gameRating/gameRating/GRAC_12_192_192x192-2873c81e2512ccd4d3fb02a00458ab19",
+              "ratingSystem": "GRAC",
+              "title": "12세이용가"
+            }
+          ],
+          "displayName": "Tchia",
+          "mappings": [
+            {
+              "createdDate": "2023-03-21T08:59:34.148Z",
+              "deletedDate": null,
+              "mappings": {
+                "cmsSlug": null,
+                "offerId": "8ae96c644a684340acfe36848779b442",
+                "prePurchaseOfferId": null
+              },
+              "pageSlug": "tchia--kepler-customization-pack",
+              "pageType": "addon--cms-hybrid",
+              "productId": "3ed24a175aad48b782ecbb05e5048074",
+              "sandboxId": "2e09c1d223094f3798f63873548c9454",
+              "updatedDate": "2023-03-21T08:59:34.148Z"
+            },
+            {
+              "createdDate": "2023-02-23T21:55:56.981Z",
+              "deletedDate": null,
+              "mappings": {
+                "cmsSlug": "tchia/oleti-edition",
+                "offerId": "ad5811da4d03456d89d7029bf7dbf677",
+                "prePurchaseOfferId": null
+              },
+              "pageSlug": "tchia--oleti-edition",
+              "pageType": "offer",
+              "productId": "3ed24a175aad48b782ecbb05e5048074",
+              "sandboxId": "2e09c1d223094f3798f63873548c9454",
+              "updatedDate": "2023-03-22T16:30:40.375Z"
+            },
+            {
+              "createdDate": "2021-11-03T15:03:54.052Z",
+              "deletedDate": null,
+              "mappings": {
+                "cmsSlug": "tchia/home",
+                "offerId": null,
+                "prePurchaseOfferId": null
+              },
+              "pageSlug": "tchia",
+              "pageType": "productHome",
+              "productId": "3ed24a175aad48b782ecbb05e5048074",
+              "sandboxId": "2e09c1d223094f3798f63873548c9454",
+              "updatedDate": "2023-03-22T16:30:40.538Z"
+            }
+          ],
+          "store": "EGS"
+        },
+        "offerMappings": [],
+        "pcReleaseDate": "2023-03-21T09:00:00.000Z",
+        "prePurchase": true,
+        "approximateReleasePlan": null,
+        "price": {
+          "totalPrice": {
+            "discountPrice": 11520,
+            "originalPrice": 12800,
+            "voucherDiscount": 0,
+            "discount": 1280,
+            "currencyCode": "CNY",
+            "currencyInfo": {
+              "decimals": 2
+            },
+            "fmtPrice": {
+              "originalPrice": "¥128.00",
+              "discountPrice": "¥115.20",
+              "intermediatePrice": "¥115.20"
+            }
+          },
+          "lineOffers": [
+            {
+              "appliedRules": [
+                {
+                  "id": "e6b12418703048b79e7cd294a1fc01eb",
+                  "endDate": "2023-03-28T14:00:00.000Z",
+                  "discountSetting": {
+                    "discountType": "PERCENTAGE"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "allDependNsOfferIds": null,
+        "majorNsOffers": [],
+        "subNsOffers": [],
+        "status": "ACTIVE",
+        "refundType": "SELF_REFUNDABLE"
+      }
+    }
+  },
+  "extensions": {}
+}

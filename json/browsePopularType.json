@@ -1,0 +1,324 @@
+{
+    "data": [
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/34e025c40be5437c8c2df5bb35fece8f/everything-is-going-to-be-ok-1p9jt.png",
+                "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-sp463.png",
+                "https://cdn1.epicgames.com/offer/916bd3319edc4e0bbb57ed7e04ad851d/EGS_GodotEngine_TheGodotEngine_S2_1200x1600-bb5b0d38d23b9869950d218727d6aea3"
+            ],
+            "slug": "mac-games",
+            "title": "Mac 游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/562426aec0364c9a87c6504f6cebd3ac/dig--deep-in-galaxies-16e41.jpg",
+                "https://cdn1.epicgames.com/spt-assets/0fcd336045584f668d6f3644ac78567f/gripper-uo6bz.png",
+                "https://cdn1.epicgames.com/spt-assets/c475441c8c7844bf89bec39cafe8d771/tiny-troopers-joint-ops-xl-wlxas.jpg"
+            ],
+            "slug": "rogue-lite-games",
+            "title": "Rogue-Lite 游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/35d7e71b54a141b39bbe5bba433ff486/download-the-last-worker-offer-1sgf4.png",
+                "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_Myst_CyanWorldsInc_S2_1200x1600-47abfc334929c9fb5b5f67667e3106bc",
+                "https://cdn1.epicgames.com/undefined/offer/Diesel_product_parrot_home_FalconAge_PortraitPromo-960x1080-960x1080-144e95628ca3d2ca48289b1b373b7398.jpg"
+            ],
+            "slug": "vr-games",
+            "title": "VR 游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/34e025c40be5437c8c2df5bb35fece8f/everything-is-going-to-be-ok-1p9jt.png",
+                "https://cdn1.epicgames.com/spt-assets/8852f251e3b442b0b7116dfce87bae37/download-kabaret-offer-1nt3t.png",
+                "https://cdn1.epicgames.com/spt-assets/f4a1f5a90e444d08b881fa1e2c06b906/filthy-animals-hlkol.jpg"
+            ],
+            "slug": "windows-games",
+            "title": "Windows 游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/56511a8727284238abe0d36572320770/tales-of-the-orient--the-rising-sun-mrun2.jpg",
+                "https://cdn1.epicgames.com/spt-assets/26be8664e4ba4bfbb5234e7694eae092/void-prison-16rmm.jpg",
+                "https://cdn1.epicgames.com/spt-assets/f8581083c427408285529920a8afbdac/download-chess-ultra-offer-8ocdk.jpg"
+            ],
+            "slug": "casual-games",
+            "title": "休闲游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/f4a1f5a90e444d08b881fa1e2c06b906/filthy-animals-hlkol.jpg",
+                "https://cdn1.epicgames.com/offer/68c8fe90d12b4ea494f549ec409f58c8/EGS_Road96Mile0_DigixArtEntertainmentSAS_S2_1200x1600-ac56e0e69a0742dc613a81bcbdd981a7",
+                "https://cdn1.epicgames.com/spt-assets/2894315771ca430fab85433714d5b48b/terrorbane-cublu.png"
+            ],
+            "slug": "adventure-games",
+            "title": "冒险游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/f4a1f5a90e444d08b881fa1e2c06b906/filthy-animals-hlkol.jpg",
+                "https://cdn1.epicgames.com/spt-assets/5b20c790255c4c5994196fd7264c4061/download-troublemaker-offer-1flpf.png",
+                "https://cdn1.epicgames.com/spt-assets/26be8664e4ba4bfbb5234e7694eae092/void-prison-16rmm.jpg"
+            ],
+            "slug": "action-games",
+            "title": "动作游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/34e025c40be5437c8c2df5bb35fece8f/everything-is-going-to-be-ok-1p9jt.png",
+                "https://cdn1.epicgames.com/spt-assets/8852f251e3b442b0b7116dfce87bae37/download-kabaret-offer-1nt3t.png",
+                "https://cdn1.epicgames.com/spt-assets/f4a1f5a90e444d08b881fa1e2c06b906/filthy-animals-hlkol.jpg"
+            ],
+            "slug": "single-player-games",
+            "title": "单人"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/offer/ba1596b29e8b4b1199058fad440366a5/EGS_StarshipTroopersTerranCommand_TheArtistocrats_S2_1200x1600-982a33c472b27d0680d9a503cd2ecb54",
+                "https://cdn1.epicgames.com/9afbc4780d874152a1c66d5fec0967d4/offer/EGS_Northgard_ShiroGames_S2-1200x1600-d08076964e47b86e1a7e7114706c3d7a.jpg",
+                "https://cdn1.epicgames.com/e8882546f28e4832af823c646aed232e/offer/otc-portrait-img-1200x1600-1200x1600-fe9ec1695e7785c3285add90a79a755a.jpg"
+            ],
+            "slug": "real-time-strategy-games",
+            "title": "即时战略游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/f4a1f5a90e444d08b881fa1e2c06b906/filthy-animals-hlkol.jpg",
+                "https://cdn1.epicgames.com/spt-assets/562426aec0364c9a87c6504f6cebd3ac/dig--deep-in-galaxies-16e41.jpg",
+                "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-sp463.png"
+            ],
+            "slug": "co-op-games",
+            "title": "合作游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/322acc9ac97d40d4b3dc775d45c57f95/heroines-of-swords-and-spells-o5104.png",
+                "https://cdn1.epicgames.com/spt-assets/da8067e8a2a04d7eaa6ff554c9323c9c/mahokenshi-1tt3a.png",
+                "https://cdn1.epicgames.com/spt-assets/93355ea9787b4a4f908caed5438125b3/download-tortuga--a-pirates-tale-offer-3r1pe.jpg"
+            ],
+            "slug": "turn-based-games",
+            "title": "回合制游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/offer/6ff9efdef6dc45ecb40ed20fcd2c4621/DD2-Epic-Offer-Portrait_3_1200x1600-94c48316c0fd366bea387b82cf4aa0a1",
+                "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_TheBannerSagaEpicTrilogy_StoicStudio_S2_1200x1600-9e1b874eb4390c2943df364eb34ebf1d",
+                "https://cdn1.epicgames.com/offer/5c0d568c71174cff8026db2606771d96/ITB-Portrait1200x1600_1200x1600-15f03715bd1b6ebf1f467f856c4a27f6"
+            ],
+            "slug": "turn-based-strategy-games",
+            "title": "回合制策略游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/0a3bd1bc13104c979634631e75d2f87f/download-locks-quest-offer-10zoi.jpg",
+                "https://cdn1.epicgames.com/spt-assets/1787db0157c34fe0bc1e21081f2c0935/download-cursed-treasure-2-ultimate-edition-offer-odfcy.jpg",
+                "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_DefendtheRook_OneUpPlus_S2_1200x1600-aa4c6d0c1d42191e8a6bd9a27fd9c5e2"
+            ],
+            "slug": "tower-defense-games",
+            "title": "塔防游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/79460c9ca0ac41f1bff52983d803a2d7/gigapocalypse-14awz.jpg",
+                "https://cdn1.epicgames.com/spt-assets/6e98b0702bf24d2eac88a5a8981337a9/falling-out-bpt9s.png",
+                "https://cdn1.epicgames.com/spt-assets/e57f25188527418d9dd7b7d3780cdaab/caverns-of-mars-recharged-1syt7.png"
+            ],
+            "slug": "retro-games",
+            "title": "复古游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/f4a1f5a90e444d08b881fa1e2c06b906/filthy-animals-hlkol.jpg",
+                "https://cdn1.epicgames.com/spt-assets/562426aec0364c9a87c6504f6cebd3ac/dig--deep-in-galaxies-16e41.jpg",
+                "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-sp463.png"
+            ],
+            "slug": "multiplayer-games",
+            "title": "多人"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-sp463.png",
+                "https://cdn1.epicgames.com/spt-assets/aacf77ed60ba4e11997347066988542f/chainmonsters-aga1s.png",
+                "https://cdn1.epicgames.com/offer/428115def4ca4deea9d69c99c5a5a99e/FR_Bungie_Destiny2_S2_1200x1600_1200x1600-c04030c570b63cdced320be0f88a9f89"
+            ],
+            "slug": "mmo-games",
+            "title": "多人在线游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/eed6cb236ce54f98b6b590efdd220d53/edge-of-galaxy-1mdl7.png",
+                "https://cdn1.epicgames.com/spt-assets/5e460c398c514a5fb9b2eb5cecef03f2/the-galactic-junkers-1l762.png",
+                "https://cdn1.epicgames.com/spt-assets/6e0edb69052f4f8a853fb8a60bde8eb8/timewell_trail_of_celestes-1gg9e.jpg"
+            ],
+            "slug": "space-games",
+            "title": "太空游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/offer/de3677b7bac547128656ac18c5b2f298/EGS_LostEidolons_OceanDriveStudioInc_S2_1200x1600-4091ca2e6e3e7828fe2e58c2ed0e81b4",
+                "https://cdn1.epicgames.com/spt-assets/ef2777467a3c49059a076e42fd9b41f0/download-gloomhaven-offer-1ho2x.jpg",
+                "https://cdn1.epicgames.com/spt-assets/84b072afafdc4f5b96481a96e7331011/download-avernum-escape-from-the-pit-offer-1j9gv.jpg"
+            ],
+            "slug": "fantasy-games",
+            "title": "奇幻游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/0836eec266324913bcdd6fb3e5586b84/out-of-bounds-14h1m.png",
+                "https://cdn1.epicgames.com/spt-assets/e910bcd7afef40b189fd94c7da6ec06b/download-valfaris-mecha-therion-offer-1o32o.jpg",
+                "https://cdn1.epicgames.com/offer/af0ea01162704696bebf8633a52a7a6d/EGS_CrimeBossRockayCity_INGAMESTUDIOS_S2_1200x1600-589327a4d212fe00efed9cbf7fd5841e_1200x1600-589327a4d212fe00efed9cbf7fd5841e"
+            ],
+            "slug": "shooter-games",
+            "title": "射击游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/71b77ec3cebd420ea478b7976a97a701/boom-blaster-lsu06.png",
+                "https://cdn1.epicgames.com/spt-assets/6e98b0702bf24d2eac88a5a8981337a9/falling-out-bpt9s.png",
+                "https://cdn1.epicgames.com/spt-assets/76b811ca6b4a4ab997881ffd8b71fe17/planet-cube--edge-2fy5z.png"
+            ],
+            "slug": "platform-games",
+            "title": "平台游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/offer/2e09c1d223094f3798f63873548c9454/EGS_Tchia_Awaceb_S2_1200x1600-30ac6c45fa9f00724591b1ca567d8655",
+                "https://cdn1.epicgames.com/spt-assets/aacf77ed60ba4e11997347066988542f/chainmonsters-aga1s.png",
+                "https://cdn1.epicgames.com/offer/20f00ccb480046359d4bf8d65d9a8e69/EGS_TheBusModdingEditor_TMLStudios_S2_1200x1600-9584ac89e5f1c24e24d299ec22664f21"
+            ],
+            "slug": "open-world-games",
+            "title": "开放世界游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/34e025c40be5437c8c2df5bb35fece8f/everything-is-going-to-be-ok-1p9jt.png",
+                "https://cdn1.epicgames.com/spt-assets/56108494a5e244dfa229fda2e3eb5cbe/trenches--world-war-1-horror-survival-game-p8132.png",
+                "https://cdn1.epicgames.com/spt-assets/01ddb5078e53406da4ac21eb68fc1715/tall-poppy-bx64o.jpg"
+            ],
+            "slug": "horror-games",
+            "title": "恐怖游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/offer/2e09c1d223094f3798f63873548c9454/EGS_Tchia_Awaceb_S2_1200x1600-30ac6c45fa9f00724591b1ca567d8655",
+                "https://cdn1.epicgames.com/offer/3428aac705b44d88beb8334780fa33bd/EGS_SEASONAlettertothefuture_ScavengersStudio_S2_1200x1600-fd02caab75848d7b7ab3633bc0503ec7",
+                "https://cdn1.epicgames.com/spt-assets/ab8d43fcaa974ff19b0da121ec5fb412/download-terra-invicta-offer-1o06l.jpg"
+            ],
+            "slug": "exploration-games",
+            "title": "探索游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/ff5a2155883e4063bf270c845584d90c/flame-keeper-sm7v3.png",
+                "https://cdn1.epicgames.com/spt-assets/dcb2eff79fb34ebe9d5ad4e7fb33713b/splatter--zombiecalypse-now-xjuc3.jpg",
+                "https://cdn1.epicgames.com/spt-assets/86705933ecfb4229ac1a48d6bd458251/nickelodeon-allstar-brawl-7zb1b.jpg"
+            ],
+            "slug": "fighting-games",
+            "title": "格斗游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-sp463.png",
+                "https://cdn1.epicgames.com/spt-assets/2739b3e9d9f04ed2ad1414e6d90b4905/horse-tales--emerald-valley-ranch-1cgaf.jpg",
+                "https://cdn1.epicgames.com/spt-assets/76d5dbd4345841ee993ba35465d1313b/water-2050-11k19.png"
+            ],
+            "slug": "simulation-games",
+            "title": "模拟游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/offer/390584f0f63a4e69978eafa4d4fce9e7/EGS_SmallandSurvivetheWilds_MergeGamesLtd_S2_1200x1600-edd5b417ddc9b4eff68fa647849824d5",
+                "https://cdn1.epicgames.com/spt-assets/0de2d0d8870f457eaf7c6bf8c64f7f9e/hell-is-others-1ra3i.jpg",
+                "https://cdn1.epicgames.com/spt-assets/da2d8e4b946b4b50b1ad818727469873/rain-world-28tjl.png"
+            ],
+            "slug": "survival-games",
+            "title": "求生游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/offer/547a1ed2e29b4e2c83cbcb348fbf9fcc/EGS_TheJackboxPartyPack9_JackboxGamesInc_S2_1200x1600-d6d9adaa6df088f7d635578f283963f9",
+                "https://cdn1.epicgames.com/spt-assets/c4dde13fcdea4aaa84dabb303006a870/download-runbow-offer-6amjn.png",
+                "https://cdn1.epicgames.com/salesEvent/salesEvent/egs-firstclasstrouble-invisiblewalls-s2-1200x1600-c19b5d5496b1_1200x1600-b5a83139d665f8f17bd3d052e2aa7bbf"
+            ],
+            "slug": "party-games",
+            "title": "派对游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/3cb7b27265f544c1826264534fb8bbd0/evil-nun-the-broken-mask-f2wjn.png",
+                "https://cdn1.epicgames.com/spt-assets/5590ae6a3ed045af83cc6c527efb0d22/download-undetected-offer-1v8nt.jpg",
+                "https://cdn1.epicgames.com/offer/96f4ce259e1b4845848399fc29c718fe/EGS_SerialCleaners_DrawDistanceSA_S2_1200x1600-d1e0f8ca1892a55a74581264885db69d"
+            ],
+            "slug": "stealth-games",
+            "title": "潜行游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/34e025c40be5437c8c2df5bb35fece8f/everything-is-going-to-be-ok-1p9jt.png",
+                "https://cdn1.epicgames.com/offer/68c8fe90d12b4ea494f549ec409f58c8/EGS_Road96Mile0_DigixArtEntertainmentSAS_S2_1200x1600-ac56e0e69a0742dc613a81bcbdd981a7",
+                "https://cdn1.epicgames.com/spt-assets/c97e0e794e5f4aeba4b670c16125124a/vagrus--the-riven-realms-1dh9a.jpg"
+            ],
+            "slug": "indie-games",
+            "title": "独立游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/offer/8a574ca3cbfc46c69ea8d3491932e973/EGS_Wreckfest_Bugbear_S2_1200x1600-9ff32ee440228e6523a26cfb1a746987",
+                "https://cdn1.epicgames.com/spt-assets/b447041b930440eb83a7e285d57520d7/mashed-lfum2.png",
+                "https://cdn1.epicgames.com/spt-assets/027a1908a28f41229751b3311ee7a4f1/nhra-championship-drag-racing--speed-for-all-96i42.jpg"
+            ],
+            "slug": "racing-games",
+            "title": "竞速游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/c97e0e794e5f4aeba4b670c16125124a/vagrus--the-riven-realms-1dh9a.jpg",
+                "https://cdn1.epicgames.com/offer/d84e1be6c7764408b3d0f610c84cb8ea/EGS_TheGreatWarWesternFront_PetroglyphGames_S2_1200x1600-cdf1da817da932e16947ae7bdc3e599e",
+                "https://cdn1.epicgames.com/spt-assets/54e27bdb65a74f6f899f2d8edfbaa4dd/terra-nil-s67zt.jpg"
+            ],
+            "slug": "strategy-games",
+            "title": "策略游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/c97e0e794e5f4aeba4b670c16125124a/vagrus--the-riven-realms-1dh9a.jpg",
+                "https://cdn1.epicgames.com/offer/dba7dabb038f40209c6075de144754de/zzt_1200x1600-389e923e1e384aa37eb519890dc5a108",
+                "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-sp463.png"
+            ],
+            "slug": "rpg-games",
+            "title": "角色扮演游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/56511a8727284238abe0d36572320770/tales-of-the-orient--the-rising-sun-mrun2.jpg",
+                "https://cdn1.epicgames.com/spt-assets/0c6f7cd9e76249bea03d568c4db16dc9/the-entropy-centre-1rmgt.jpg",
+                "https://cdn1.epicgames.com/spt-assets/54e27bdb65a74f6f899f2d8edfbaa4dd/terra-nil-s67zt.jpg"
+            ],
+            "slug": "puzzle-games",
+            "title": "解谜游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/09a1c24b295148d8a7b8f47d9cfb5859/out-of-the-park-baseball-24-1por4.jpg",
+                "https://cdn1.epicgames.com/spt-assets/fb2bdf90469049898470682245cbb7c4/tiny-troopers-global-ops-33xd4.jpg",
+                "https://cdn1.epicgames.com/offer/eca9a86adffa4605b8250d383fc01098/EGS_DeceiveInc_SweetBanditsStudios_S2_1200x1600-514d9754f5142f5abccdc1012111a9ae"
+            ],
+            "slug": "cross-platform-games",
+            "title": "跨平台游戏"
+        },
+        {
+            "images": [
+                "https://cdn1.epicgames.com/spt-assets/09a1c24b295148d8a7b8f47d9cfb5859/out-of-the-park-baseball-24-1por4.jpg",
+                "https://cdn1.epicgames.com/spt-assets/f8581083c427408285529920a8afbdac/download-chess-ultra-offer-8ocdk.jpg",
+                "https://cdn1.epicgames.com/spt-assets/cabe2e59ee3449e398ff21c07d35c579/golazo-2-6re78.png"
+            ],
+            "slug": "sports-games",
+            "title": "运动游戏"
+        }
+    ],
+    "paging": {
+        "count": 35,
+        "start": 0,
+        "total": 35
+    }
+}

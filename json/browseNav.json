@@ -1,0 +1,517 @@
+{
+    "data": {
+        "Catalog": {
+            "tags": {
+                "elements": [
+                    {
+                        "groupName":"类别",
+                        "name":"编辑器",
+                        "htmlId":"type",
+                        "id":"editors"
+                    },
+                    {
+                        "groupName":"类别",
+                        "name":"软件",
+                        "htmlId":"type",
+                        "id":"applications"
+                    },
+                    {
+                        "groupName":"类别",
+                        "name":"游戏",
+                        "htmlId":"type",
+                        "id":"games"
+                    },
+                    {
+                        "groupName":"类别",
+                        "name":"游戏版本",
+                        "htmlId":"type",
+                        "id":"games/edition/base"
+                    },
+                    {
+                        "groupName":"类别",
+                        "name":"游戏附加内容",
+                        "htmlId":"type",
+                        "id":"addons"
+                    },
+                    {
+                        "groupName":"类别",
+                        "name":"游戏捆绑包",
+                        "htmlId":"type",
+                        "id":"bundles"
+                    },
+                    {
+                        "groupName":"类别",
+                        "name":"游戏演示版",
+                        "htmlId":"type",
+                        "id":"games/demo"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "9547",
+                        "name": "Windows",
+                        "referenceCount": 8239,
+                        "status": "ACTIVE",
+                        "groupName": "平台",
+                        "htmlId":"platform"
+                    },
+                    {
+                        "aliases": [
+                            "OSX",
+                            "macOS"
+                        ],
+                        "id": "10719",
+                        "name": "Mac OS",
+                        "referenceCount": 600,
+                        "status": "ACTIVE",
+                        "groupName": "平台",
+                        "htmlId":"platform"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "27343",
+                        "name": "Alexa Game Control",
+                        "referenceCount": 5,
+                        "status": "ACTIVE",
+                        "groupName": "特色",
+                        "htmlId":"feature"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1083",
+                        "name": "Rogue-lite",
+                        "referenceCount": 162,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1179",
+                        "name": "VR",
+                        "referenceCount": 32,
+                        "status": "ACTIVE",
+                        "groupName": "特色",
+                        "htmlId":"feature"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "21894",
+                        "name": "云存储",
+                        "referenceCount": 1181,
+                        "status": "ACTIVE",
+                        "groupName": "特色",
+                        "htmlId":"feature"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1296",
+                        "name": "休闲",
+                        "referenceCount": 239,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1117",
+                        "name": "冒险",
+                        "referenceCount": 1288,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1216",
+                        "name": "动作",
+                        "referenceCount": 1777,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1336",
+                        "name": "动作冒险",
+                        "referenceCount": 394,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1370",
+                        "name": "单人",
+                        "referenceCount": 3895,
+                        "status": "ACTIVE",
+                        "groupName": "特色",
+                        "htmlId":"feature"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1181",
+                        "name": "卡牌游戏",
+                        "referenceCount": 64,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1120",
+                        "name": "即时战略",
+                        "referenceCount": 69,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1395",
+                        "name": "叙事",
+                        "referenceCount": 185,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1264",
+                        "name": "合作",
+                        "referenceCount": 885,
+                        "status": "ACTIVE",
+                        "groupName": "特色",
+                        "htmlId":"feature"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1116",
+                        "name": "喜剧",
+                        "referenceCount": 137,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1386",
+                        "name": "回合制",
+                        "referenceCount": 173,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1088",
+                        "name": "回合制策略",
+                        "referenceCount": 59,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1265",
+                        "name": "地牢探索",
+                        "referenceCount": 720,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1146",
+                        "name": "城市建造",
+                        "referenceCount": 149,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1170",
+                        "name": "塔防",
+                        "referenceCount": 19,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1198",
+                        "name": "复古",
+                        "referenceCount": 40,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1203",
+                        "name": "多人",
+                        "referenceCount": 1578,
+                        "status": "ACTIVE",
+                        "groupName": "特色",
+                        "htmlId":"feature"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1275",
+                        "name": "多人在线战术竞技游戏",
+                        "referenceCount": 3,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "22775",
+                        "name": "多人在线游戏",
+                        "referenceCount": 10,
+                        "status": "ACTIVE",
+                        "groupName": "特色",
+                        "htmlId":"feature"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1121",
+                        "name": "太空",
+                        "referenceCount": 50,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1287",
+                        "name": "奇幻",
+                        "referenceCount": 53,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1210",
+                        "name": "射击",
+                        "referenceCount": 571,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1151",
+                        "name": "平台游戏",
+                        "referenceCount": 303,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1307",
+                        "name": "开放世界",
+                        "referenceCount": 353,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1218",
+                        "name": "恐怖",
+                        "referenceCount": 331,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "19847",
+                        "name": "成就",
+                        "referenceCount": 1561,
+                        "status": "ACTIVE",
+                        "groupName": "特色",
+                        "htmlId":"feature"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1381",
+                        "name": "探索",
+                        "referenceCount": 155,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "9549",
+                        "name": "支持手柄",
+                        "referenceCount": 1430,
+                        "status": "ACTIVE",
+                        "groupName": "特色",
+                        "htmlId":"feature"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "15375",
+                        "name": "春季特惠",
+                        "referenceCount": 2084,
+                        "status": "ACTIVE",
+                        "groupName": "活动",
+                        "htmlId":"event"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1344",
+                        "name": "格斗",
+                        "referenceCount": 110,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1393",
+                        "name": "模拟",
+                        "referenceCount": 760,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1110",
+                        "name": "派对",
+                        "referenceCount": 104,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1084",
+                        "name": "潜行",
+                        "referenceCount": 129,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1263",
+                        "name": "独立",
+                        "referenceCount": 907,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1080",
+                        "name": "生存",
+                        "referenceCount": 680,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1318",
+                        "name": "益智问答",
+                        "referenceCount": 69,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1299",
+                        "name": "竞技",
+                        "referenceCount": 345,
+                        "status": "ACTIVE",
+                        "groupName": "特色",
+                        "htmlId":"feature"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1212",
+                        "name": "竞速",
+                        "referenceCount": 181,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1294",
+                        "name": "第一人称",
+                        "referenceCount": 284,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1115",
+                        "name": "策略",
+                        "referenceCount": 870,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1367",
+                        "name": "角色扮演",
+                        "referenceCount": 992,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1298",
+                        "name": "解谜",
+                        "referenceCount": 307,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "22776",
+                        "name": "跨平台",
+                        "referenceCount": 48,
+                        "status": "ACTIVE",
+                        "groupName": "特色",
+                        "htmlId":"feature"
+                    },
+                    {
+                        "aliases": [],
+                        "id": "1283",
+                        "name": "运动",
+                        "referenceCount": 126,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    },
+                    {
+                        "aliases": [
+                            "MUSIC"
+                        ],
+                        "id": "1129",
+                        "name": "音乐",
+                        "referenceCount": 62,
+                        "status": "ACTIVE",
+                        "groupName": "游戏类型",
+                        "htmlId":"genre"
+                    }
+                ]
+            }
+        }
+    },
+    "extensions": {}
+}

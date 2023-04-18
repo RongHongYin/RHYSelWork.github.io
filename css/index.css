@@ -1,0 +1,664 @@
+body .main .banner {
+  width: 1427px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+body .main .banner .bannerBox {
+  width: 1140px;
+  height: 640px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+body .main .banner .bannerBox .bannerWrap {
+  width: 6840px;
+  height: 640px;
+  display: flex;
+  transition: ease left 500ms;
+  position: relative;
+  left: 0;
+}
+body .main .banner .bannerBox .bannerWrap .slide {
+  width: 1140px;
+  position: relative;
+  height: 640px;
+}
+body .main .banner .bannerBox .bannerWrap .slide > a img {
+  width: 1140px;
+  height: 640px;
+}
+body .main .banner .bannerBox .bannerWrap .slide .information {
+  width: 320px;
+  position: absolute;
+  bottom: 56px;
+  left: 56px;
+  color: #fff;
+}
+body .main .banner .bannerBox .bannerWrap .slide .information h2 {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+body .main .banner .bannerBox .bannerWrap .slide .information p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+body .main .banner .bannerBox .bannerWrap .slide .information .buy .price {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+body .main .banner .bannerBox .bannerWrap .slide .information .buy a {
+  display: inline-block;
+}
+body .main .banner .bannerBox .bannerWrap .slide .information .buy .buyNow {
+  width: 150px;
+  min-width: 150px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+  text-align: center;
+  line-height: 50px;
+}
+body .main .banner .bannerBox .bannerWrap .slide .information .buy .buyNow:hover {
+  cursor: pointer;
+}
+body .main .banner .bannerBox .bannerWrap .slide .information .buy .wish {
+  font-size: 12px;
+  margin-left: 10px;
+  width: 144px;
+  height: 50px;
+  vertical-align: top;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  transition: 0.2s ease all;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+body .main .banner .bannerBox .bannerWrap .slide .information .buy .wish:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: 0.2s ease all;
+}
+body .main .banner .bannerBox .bannerWrap .slide .information .buy .wish .icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f5f5f5;
+  border-radius: 50%;
+  margin-right: 5px;
+  background-color: #1c1c1c;
+  position: relative;
+}
+body .main .banner .bannerBox .bannerWrap .slide .information .buy .wish .icon::after,
+body .main .banner .bannerBox .bannerWrap .slide .information .buy .wish .icon::before {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body .main .banner .bannerBox .bannerWrap .slide .information .buy .wish .icon::after {
+  width: 2px;
+  height: 8px;
+}
+body .main .banner .bannerBox .bannerWrap .slide .information .buy .wish .icon::before {
+  width: 8px;
+  height: 2px;
+}
+body .main .banner .pagination {
+  width: 256px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .main .banner .pagination .items {
+  width: 256px;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+body .main .banner .pagination .items a {
+  width: 256px;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+body .main .banner .pagination .items a .imgLeft {
+  width: 60px;
+  height: 80px;
+  margin: 0 15px;
+}
+body .main .banner .pagination .items a .imgLeft img {
+  width: 60px;
+  height: 80px;
+  border-radius: 10px;
+}
+body .main .banner .pagination .items a .describe {
+  color: #fff;
+}
+body .main .banner .pagination .items.active {
+  background-color: #252525;
+}
+@keyframes backFull {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+body .main .banner .pagination .items.active::before {
+  width: 100%;
+  height: 100%;
+  content: '';
+  display: block;
+  background-color: #363636;
+  position: absolute;
+  z-index: 1;
+  left: -100%;
+  animation: backFull 7s linear;
+}
+body .main .banner .pagination .items.active .imgLeft img {
+  animation: pulse 0.5s;
+}
+body .main .banner .pagination .items[class='items']:hover {
+  cursor: pointer;
+  background-color: #252525;
+}
+body .main .specialGame {
+  width: 1427px;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+}
+body .main .specialGame .title {
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+body .main .specialGame .title .titleText {
+  color: #fff;
+  font-size: 18px;
+}
+body .main .specialGame .title .titleText span {
+  margin-left: 0;
+  transition: all 0.3s ease;
+}
+body .main .specialGame .title .titleText:hover span {
+  transition: all 0.3s ease;
+  margin-left: 5px;
+}
+body .main .specialGame .title .toggleButton .prev,
+body .main .specialGame .title .toggleButton .next {
+  color: #fff;
+  background-color: #202020;
+  outline: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+body .main .specialGame .title .toggleButton .prev:disabled,
+body .main .specialGame .title .toggleButton .next:disabled {
+  color: #f5f5f599;
+}
+body .main .specialGame .title .toggleButton .prev:disabled:hover,
+body .main .specialGame .title .toggleButton .next:disabled:hover {
+  background-color: #202020;
+  cursor: auto;
+}
+body .main .specialGame .title .toggleButton .prev:hover,
+body .main .specialGame .title .toggleButton .next:hover {
+  background-color: #2B2B2B;
+  cursor: pointer;
+}
+body .main .specialGame .gamesBigBox {
+  overflow: hidden;
+}
+body .main .specialGame .gamesBigBox .gamesBox {
+  position: relative;
+  display: flex;
+  transition: 300ms ease-in-out left;
+  left: 0;
+}
+body .main .specialGame .gamesBigBox .gamesBox .gamesWrap {
+  font-size: 0;
+  display: flex;
+  align-items: flex-start;
+}
+body .main .specialGame .gamesBigBox .gamesBox .gamesWrap .games {
+  width: 211px;
+  margin-right: 32px;
+  position: relative;
+  display: inline-block;
+}
+body .main .specialGame .gamesBigBox .gamesBox .gamesWrap .games:hover .addWish {
+  display: flex;
+}
+body .main .specialGame .gamesBigBox .gamesBox .gamesWrap .games .gameImg {
+  width: 211px;
+  height: 281px;
+}
+body .main .specialGame .gamesBigBox .gamesBox .gamesWrap .games .gameImg::before {
+  border-radius: 4px;
+}
+body .main .specialGame .gamesBigBox .gamesBox .gamesWrap .games .gameImg img {
+  width: 211px;
+  height: 281px;
+  border-radius: 4px;
+}
+body .main .specialGame .gamesBigBox .gamesBox .gamesWrap .games .gameDes p {
+  color: #f5f5f599;
+  margin: 10px 0;
+  font-size: 12px;
+}
+body .main .specialGame .gamesBigBox .gamesBox .gamesWrap .games .gameDes h2 {
+  font-size: 16px;
+  color: #f5f5f5;
+  margin-bottom: 10px;
+}
+body .main .specialGame .gamesBigBox .gamesBox .gamesWrap .games .gameDes .price {
+  display: flex;
+  align-items: center;
+}
+body .main .specialGame .gamesBigBox .gamesBox .gamesWrap .games .gameDes .price.free {
+  font-size: 16px;
+  color: #f5f5f5;
+}
+body .main .specialGame .gamesBigBox .gamesBox .gamesWrap .games .gameDes .price .discountPercentage {
+  padding: 5px 10px;
+  background-color: #0074e4;
+  display: inline-block;
+  font-size: 12px;
+  color: #f5f5f5;
+  border-radius: 4px;
+}
+body .main .specialGame .gamesBigBox .gamesBox .gamesWrap .games .gameDes .price .oldPrice {
+  font-size: 16px;
+  color: #f5f5f599;
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+body .main .specialGame .gamesBigBox .gamesBox .gamesWrap .games .gameDes .price .nowPrice {
+  color: #f5f5f5;
+  font-size: 16px;
+  margin-left: 5px;
+}
+body .main .twoBigGames {
+  padding-top: 50px;
+  width: 1427px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+body .main .twoBigGames .items {
+  width: 697px;
+}
+body .main .twoBigGames .items .imgBox {
+  display: block;
+  width: 697px;
+  height: 392px;
+}
+body .main .twoBigGames .items .imgBox:hover .addWish {
+  display: flex;
+}
+body .main .twoBigGames .items .imgBox::before {
+  border-radius: 16px;
+}
+body .main .twoBigGames .items .imgBox img {
+  border-radius: 16px;
+  width: 697px;
+  height: 392px;
+}
+body .main .twoBigGames .items .des {
+  margin-top: 30px;
+  padding: 0 32px;
+}
+body .main .twoBigGames .items .des h2 {
+  margin-bottom: 15px;
+}
+body .main .twoBigGames .items .des h2 a {
+  display: block;
+  font-size: 22px;
+  color: #f5f5f5;
+}
+body .main .twoBigGames .items .des p {
+  margin-bottom: 25px;
+  font-size: 16px;
+  color: #f5f5f599;
+}
+body .main .twoBigGames .items .des > a {
+  font-size: 22px;
+  color: #f5f5f5;
+}
+body .main .twoBigGames .items .des > a:hover {
+  text-decoration: underline;
+}
+body .main .freeGames {
+  box-sizing: border-box;
+  padding: 30px 40px;
+  width: 1427px;
+  height: 662px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  margin-top: 50px;
+}
+body .main .freeGames .title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+body .main .freeGames .title .titleText {
+  color: #f5f5f5;
+  display: flex;
+  align-items: center;
+}
+body .main .freeGames .title .titleText .icon {
+  font-size: 35px;
+  margin-right: 14px;
+}
+body .main .freeGames .title .titleText .text {
+  font-size: 18px;
+}
+body .main .freeGames .title .lookMore {
+  width: 100px;
+  height: 32px;
+  border: 1px solid rgba(245, 245, 245, 0.6);
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+body .main .freeGames .title .lookMore:hover {
+  background-color: #4C4C4C;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+body .main .freeGames .gameBox {
+  display: flex;
+  justify-content: space-between;
+}
+body .main .freeGames .gameBox .games .imgBox {
+  width: 325px;
+  margin-bottom: 26px;
+  font-size: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+body .main .freeGames .gameBox .games .imgBox img {
+  width: 325px;
+  height: 433px;
+}
+body .main .freeGames .gameBox .games .imgBox .nowFree {
+  height: 30px;
+  background-color: #0078f2;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+}
+body .main .freeGames .gameBox .games .imgBox .willFree {
+  height: 30px;
+  background-color: #000000;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+}
+body .main .freeGames .gameBox .games .des h2 {
+  font-size: 16px;
+  color: #f5f5f5;
+  margin-bottom: 5px;
+}
+body .main .freeGames .gameBox .games .des p {
+  color: #f5f5f599;
+  font-size: 16px;
+}
+body .main .gameListBox {
+  width: 1427px;
+  height: 850px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+body .main .gameListBox .gameList {
+  flex-grow: 1;
+}
+body .main .gameListBox .gameList .title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+body .main .gameListBox .gameList .title .titleText {
+  font-size: 22px;
+  color: #f5f5f5;
+}
+body .main .gameListBox .gameList .title .lookMore {
+  width: 90px;
+  border: 1px solid rgba(245, 245, 245, 0.6);
+  text-align: center;
+  line-height: 30px;
+  color: #f5f5f5;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+body .main .gameListBox .gameList .title .lookMore:hover {
+  transition: background-color 0.3s ease;
+  background-color: #4C4C4C;
+  cursor: pointer;
+}
+body .main .gameListBox .gameList .games .game {
+  padding: 16px 32px;
+  display: flex;
+  border-radius: 16px;
+  align-items: center;
+}
+body .main .gameListBox .gameList .games .game:hover {
+  background-color: #2A2A2A;
+  cursor: pointer;
+}
+body .main .gameListBox .gameList .games .game .imgBox {
+  width: 96px;
+  height: 128px;
+  margin-right: 32px;
+  position: relative;
+}
+body .main .gameListBox .gameList .games .game .imgBox:hover .addWish {
+  display: flex;
+}
+body .main .gameListBox .gameList .games .game .imgBox img {
+  width: 96px;
+  height: 128px;
+  border-radius: 4px;
+}
+body .main .gameListBox .gameList .games .game .des h2 {
+  font-size: 16px;
+  color: #f5f5f5;
+}
+body .main .gameListBox .gameList .games .game .des p {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+body .main .gameListBox .gameList .games .game .des p .isLogged {
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: #ffffff1a;
+  margin-right: 10px;
+}
+body .main .gameListBox .gameList .games .game .des p .time {
+  font-size: 16px;
+  color: #f5f5f599;
+}
+body .main .gameListBox .gameList .games .game .des .price {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+body .main .gameListBox .gameList .games .game .des .price .discountPercentage {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 5px 10px;
+  background-color: #0074e4;
+  text-align: center;
+  color: #f5f5f5;
+}
+body .main .gameListBox .gameList .games .game .des .price .oldPrice {
+  color: #f5f5f599;
+  font-size: 14px;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+body .main .gameListBox .gameList .games .game .des .price .nowPrice {
+  color: #f5f5f5;
+  font-size: 14px;
+  margin-left: 10px;
+}
+body .main .gameListBox .interval {
+  width: 1px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0 16px;
+}
+body .main #twoGames .items {
+  width: 454px;
+}
+body .main #twoGames .items .imgBox {
+  width: 454px;
+  height: 255px;
+}
+body .main #twoGames .items .imgBox img {
+  width: 454px;
+  height: 255px;
+}
+body .main #alreadyLaunched .gamesBox {
+  display: flex;
+  overflow: visible;
+}
+body .main #alreadyLaunched .gamesBox .games {
+  width: 211px;
+  margin-right: 32px;
+  position: relative;
+  display: inline-block;
+}
+body .main #alreadyLaunched .gamesBox .games:hover .addWish {
+  display: flex;
+}
+body .main #alreadyLaunched .gamesBox .games .gameImg {
+  width: 211px;
+  height: 281px;
+}
+body .main #alreadyLaunched .gamesBox .games .gameImg::before {
+  border-radius: 4px;
+}
+body .main #alreadyLaunched .gamesBox .games .gameImg img {
+  width: 211px;
+  height: 281px;
+  border-radius: 4px;
+}
+body .main #alreadyLaunched .gamesBox .games .gameDes p {
+  color: #f5f5f599;
+  margin: 10px 0;
+  font-size: 12px;
+}
+body .main #alreadyLaunched .gamesBox .games .gameDes h2 {
+  font-size: 16px;
+  color: #f5f5f5;
+  margin-bottom: 10px;
+}
+body .main #alreadyLaunched .gamesBox .games .gameDes .price {
+  display: flex;
+  align-items: center;
+}
+body .main #alreadyLaunched .gamesBox .games .gameDes .price .discountPercentage {
+  padding: 5px 10px;
+  background-color: #0074e4;
+  display: inline-block;
+  font-size: 12px;
+  color: #f5f5f5;
+  border-radius: 4px;
+}
+body .main #alreadyLaunched .gamesBox .games .gameDes .price .oldPrice {
+  font-size: 16px;
+  color: #f5f5f599;
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+body .main #alreadyLaunched .gamesBox .games .gameDes .price .nowPrice {
+  color: #f5f5f5;
+  font-size: 16px;
+  margin-left: 5px;
+}
+body .main .fullCatalog {
+  width: 1427px;
+  padding-top: 25px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 140px;
+}
+body .main .fullCatalog .imgbox {
+  width: 856px;
+  height: 481px;
+  display: block;
+}
+body .main .fullCatalog .imgbox::before {
+  border-radius: 16px;
+}
+body .main .fullCatalog .imgbox img {
+  width: 856px;
+  height: 481px;
+  border-radius: 16px;
+}
+body .main .fullCatalog .des {
+  padding-left: 64px;
+}
+body .main .fullCatalog .des h2 {
+  font-size: 22px;
+  color: #f5f5f5;
+  padding-bottom: 40px;
+}
+body .main .fullCatalog .des p {
+  font-size: 16px;
+  color: #f5f5f599;
+  padding-bottom: 70px;
+}
+body .main .fullCatalog .des a {
+  display: block;
+  margin-top: 15px;
+  width: 100px;
+  background-color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+  color: #121212;
+}

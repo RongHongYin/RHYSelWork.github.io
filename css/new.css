@@ -1,0 +1,129 @@
+body .main {
+  width: 1427px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+body .main .epicNews > h2 {
+  font-size: 18px;
+  color: #fff;
+  margin: 0 10px 10px;
+  font-weight: lighter;
+}
+body .main .epicNews .newsBox {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+body .main .epicNews .newsBox .news {
+  width: 693px;
+}
+body .main .epicNews .newsBox .news .imgBox {
+  width: 693px;
+  height: 390px;
+}
+body .main .epicNews .newsBox .news .imgBox::before {
+  border-radius: 4px;
+}
+body .main .epicNews .newsBox .news .imgBox img {
+  width: 693px;
+  height: 390px;
+  border-radius: 4px;
+}
+body .main .epicNews .newsBox .news .des {
+  margin-top: 15px;
+}
+body .main .epicNews .newsBox .news .des .time {
+  font-size: 12px;
+  color: #f5f5f599;
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+body .main .epicNews .newsBox .news .des .title {
+  font-size: 16px;
+  color: #f5f5f5;
+  line-height: 20px;
+  display: block;
+  font-weight: bolder;
+}
+body .main .epicNews .newsBox .news .des .describe {
+  margin: 14px 0;
+  font-size: 16px;
+  color: #f5f5f599;
+}
+body .main .epicNews .newsBox .news .des .lookMore {
+  color: #fff;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all ease 0.5s;
+}
+body .main .epicNews .newsBox .news .des .lookMore:hover {
+  border-color: #fff;
+}
+body .main .newList {
+  padding-bottom: 16px;
+}
+body .main .newList .items {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+}
+body .main .newList .items .imgBox {
+  width: 200px;
+  height: 112px;
+  margin-right: 20px;
+}
+body .main .newList .items .imgBox::before {
+  border-radius: 4px;
+}
+body .main .newList .items .imgBox img {
+  width: 200px;
+  height: 112px;
+  border-radius: 4px;
+}
+body .main .newList .items .des .time {
+  font-size: 12px;
+  color: #f5f5f599;
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+body .main .newList .items .des .title {
+  font-size: 16px;
+  color: #f5f5f5;
+  line-height: 20px;
+  display: block;
+  font-weight: bolder;
+}
+body .main .newList .items .des .describe {
+  margin: 14px 0;
+  font-size: 16px;
+  color: #f5f5f599;
+}
+body .main .newList .items .des .lookMore {
+  color: #fff;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all ease 0.5s;
+}
+body .main .newList .items .des .lookMore:hover {
+  border-color: #fff;
+}
+body .main .page {
+  display: flex;
+  justify-content: center;
+}
+body .main .page a {
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+  color: #f5f5f599;
+}
+body .main .page a:first-child {
+  display: none;
+}
+body .main .page a:hover {
+  font-weight: 700;
+  color: #f5f5f5;
+}

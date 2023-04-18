@@ -1,0 +1,422 @@
+body {
+  background-color: #121212;
+  font-size: 16px;
+}
+body .hover {
+  position: relative;
+}
+body .hover::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color 0.3s ease;
+}
+body .hover:hover::before {
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: background-color 0.3s ease;
+}
+body .addWish {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 44px;
+  height: 44px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+body .addWish .addIcon {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background-color: #1c1c1c;
+}
+body .addWish .addIcon::before,
+body .addWish .addIcon::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+body .addWish .addIcon::before {
+  width: 2px;
+  height: 12px;
+}
+body .addWish .addIcon::after {
+  width: 12px;
+  height: 2px;
+}
+body .addWish .addIcon:hover ~ .addText {
+  display: block;
+}
+body .addWish .addText {
+  position: absolute;
+  display: none;
+  top: -50px;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 4px;
+  width: 135px;
+  height: 35px;
+  background-color: #202020;
+  font-size: 14px;
+}
+body .addWishText {
+  position: absolute;
+  display: flex;
+  top: 0;
+  padding-left: 14px;
+}
+body .addWishText .addWishTextitemss {
+  display: none;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 4px;
+  width: 135px;
+  height: 35px;
+  background-color: #202020;
+  font-size: 14px;
+  margin-left: 108px;
+}
+body .topNav {
+  background-color: #2a2a2a;
+  height: 52px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+body .topNav .leftBody {
+  display: flex;
+}
+body .topNav .leftBody .logo {
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  opacity: 0.9;
+}
+body .topNav .leftBody .logo:hover {
+  opacity: 1;
+}
+body .topNav .leftBody .logo .logoLink {
+  display: block;
+  width: 3.7em;
+  height: 52px;
+  opacity: 0.9;
+  background-image: url(../images/logo.png);
+  background-size: 30px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body .topNav .leftBody .navText {
+  display: flex;
+  align-items: stretch;
+}
+body .topNav .leftBody .navText a {
+  color: #ccc;
+  padding: 0 14px;
+  line-height: 52px;
+  border-bottom: #007dfc 0 solid;
+  transition: border-bottom 0.1s linear;
+}
+body .topNav .leftBody .navText a:first-child {
+  border-bottom: #007dfc 5px solid;
+}
+body .topNav .leftBody .navText a:hover {
+  color: #fff;
+  border-bottom: #007dfc 5px solid;
+  transition: border-bottom 0.1s linear;
+}
+body .topNav .leftBody .navText div {
+  width: 40px;
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .topNav .leftBody .navText div span {
+  display: block;
+  width: 1px;
+  height: 30px;
+  background-color: #e7e7e7;
+}
+body .topNav .rightBody {
+  display: flex;
+  align-items: stretch;
+}
+body .topNav .rightBody .language {
+  width: 32px;
+  padding: 0 14px;
+  text-align: center;
+  color: #ccc;
+  position: relative;
+  line-height: 52px;
+}
+body .topNav .rightBody .language .languageIcon {
+  font-size: 18px;
+  width: 32px;
+}
+body .topNav .rightBody .language .languageList {
+  width: 180px;
+  height: 434px;
+  box-sizing: border-box;
+  padding: 7px 0;
+  background-color: #2a2a2a;
+  position: absolute;
+  top: 100%;
+  left: -60px;
+  display: none;
+  z-index: 100;
+}
+body .topNav .rightBody .language .languageList li {
+  width: 180px;
+  height: 28px;
+  line-height: 28px;
+}
+body .topNav .rightBody .language .languageList li:hover {
+  color: #fff;
+  cursor: pointer;
+}
+body .topNav .rightBody .language:hover {
+  cursor: pointer;
+}
+body .topNav .rightBody .language:hover .languageList {
+  display: block;
+}
+body .topNav .rightBody .language:hover .languageIcon {
+  color: #fff;
+}
+body .topNav .rightBody .login {
+  width: 97px;
+  box-sizing: border-box;
+  padding: 0 14px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+body .topNav .rightBody .login .icon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.8;
+  transition: opacity 0.5s ease;
+  color: #e7e7e7;
+}
+body .topNav .rightBody .login:hover {
+  cursor: pointer;
+}
+body .topNav .rightBody .login:hover .icon {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+body .topNav .rightBody .login:hover .text {
+  color: #fff;
+}
+body .topNav .rightBody .login .text {
+  padding: 0 10px;
+  color: #e7e7e7;
+}
+body .topNav .rightBody .getClient {
+  height: 52px;
+  line-height: 52px;
+  width: 128px;
+  box-sizing: border-box;
+  padding: 0 14px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background-color: #007dfc;
+}
+body .top {
+  height: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: #121212;
+}
+body .top .content {
+  width: 1427px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  z-index: 101;
+  background-color: #121212;
+}
+body .top .content .search {
+  width: 230px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+body .top .content .search .icon {
+  position: absolute;
+  left: 10px;
+  font-size: 30px;
+  color: #8B8B8B;
+}
+body .top .content .search input {
+  background-color: #202020;
+  outline: none;
+  border: 0;
+  height: 40px;
+  border-radius: 30px;
+  padding-left: 40px;
+}
+body .top .content .search input[type="text"] {
+  color: #fff;
+}
+body .top .content .search input:focus {
+  background-color: #2A2A2A;
+}
+body .top .content .search input::placeholder {
+  font-size: 13px;
+  color: #f5f5f5;
+}
+body .top .content .searchResult {
+  display: none;
+}
+body .top .content .nav {
+  width: 176px;
+  height: 40px;
+  display: flex;
+  margin-left: 20px;
+}
+body .top .content .nav a {
+  padding: 10px;
+  color: #8B8B8B;
+}
+body .top .content .nav a.active,
+body .top .content .nav a:hover {
+  color: #fff;
+}
+body .foot {
+  background-color: #202020;
+  padding: 20px 72px 40px;
+}
+body .foot .iconLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .foot .iconLink .iconLinkLeft {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+body .foot .iconLink .iconLinkLeft .iconfont {
+  font-size: 28px;
+  color: #CCCCCC;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+body .foot .iconLink .iconLinkLeft .iconfont:hover {
+  cursor: pointer;
+  color: #0078f2 !important;
+  transition: color 0.3s ease;
+}
+body .foot .iconLink .toTop {
+  font-size: 28px;
+  color: #CCCCCC;
+  transition: all 0.3s ease;
+  border: 2px solid #fff;
+  display: block;
+}
+body .foot .iconLink .toTop:hover {
+  transition: all 0.3s ease;
+  color: #0078f2;
+  border: 2px solid #0078f2;
+  cursor: pointer;
+}
+body .foot .friendLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .foot .friendLink .link {
+  display: flex;
+}
+body .foot .friendLink .link .resource h2,
+body .foot .friendLink .link .developedBy h2 {
+  padding-top: 20px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #ccc;
+  opacity: 0.4;
+}
+body .foot .friendLink .link .resource ul,
+body .foot .friendLink .link .developedBy ul {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 0 24px 8px 0;
+}
+body .foot .friendLink .link .resource ul a,
+body .foot .friendLink .link .developedBy ul a {
+  font-size: 14px;
+  color: #e7e7e7;
+  line-height: 25px;
+  transition: color 0.3s ease;
+}
+body .foot .friendLink .link .resource ul a:hover,
+body .foot .friendLink .link .developedBy ul a:hover {
+  cursor: pointer;
+  color: #0078f2 !important;
+  transition: color 0.3s ease;
+}
+body .foot .hr {
+  margin: 16px 0;
+  width: 100%;
+  height: 1px;
+  background-color: #333;
+}
+body .foot .copyright {
+  padding: 16px;
+  display: flex;
+  padding-left: 0;
+}
+body .foot .copyright .text {
+  width: 50%;
+  padding-top: 6px;
+  font-size: 12px;
+  color: #ccc;
+}
+body .foot .clause {
+  display: flex;
+  justify-content: space-between;
+}
+body .foot .clause .clauseLink {
+  padding: 16px 0 16px 0;
+}
+body .foot .clause .clauseLink a {
+  margin: 16px 0;
+  color: #e7e7e7;
+  font-size: 12px;
+  padding-right: 16px;
+  transition: color 0.3s ease;
+}
+body .foot .clause .clauseLink a:hover {
+  cursor: pointer;
+  color: #0078f2 !important;
+  transition: color 0.3s ease;
+}
+body .foot .clause .iconLink .iconfont {
+  font-size: 32px;
+  color: #ccc;
+  margin-right: 0.75em;
+  transition: color 0.3s ease;
+}
+body .foot .clause .iconLink .iconfont:hover {
+  color: #fff;
+  transition: color 0.3s ease;
+}

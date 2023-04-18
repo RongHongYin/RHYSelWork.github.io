@@ -1,0 +1,170 @@
+body {
+    .main {
+        width: 1427px;
+        margin: 0 auto;
+        padding-bottom: 90px;
+
+        .epicNews {
+            &>h2 {
+                font-size: 18px;
+                color: #fff;
+                margin: 0 10px 10px;
+                font-weight: lighter;
+            }
+
+            .newsBox {
+                display: flex;
+                margin-left: 10px;
+                margin-right: 10px;
+                justify-content: space-between;
+                margin-bottom: 60px;
+
+                .news {
+                    width: 693px;
+
+                    .imgBox {
+                        width: 693px;
+                        height: 390px;
+
+                        &::before {
+                            border-radius: 4px;
+                        }
+
+                        img {
+                            width: 693px;
+                            height: 390px;
+                            border-radius: 4px;
+                        }
+                    }
+
+                    .des {
+                        margin-top: 15px;
+
+                        .time {
+                            font-size: 12px;
+                            color: #f5f5f599;
+                            margin-bottom: 5px;
+                            line-height: 22px;
+                        }
+
+                        .title {
+                            font-size: 16px;
+                            color: #f5f5f5;
+                            line-height: 20px;
+                            display: block;
+                            font-weight: bolder;
+                        }
+
+                        .describe {
+                            margin: 14px 0;
+                            font-size: 16px;
+                            color: #f5f5f599;
+                        }
+
+                        .lookMore {
+                            color: #fff;
+                            font-size: 16px;
+                            border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+                            transition: all ease 0.5s;
+
+                            &:hover {
+                                border-color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .newList {
+            padding-bottom: 16px;
+
+            .items {
+                padding-top: 20px;
+                margin-bottom: 20px;
+                border-top: 1px solid rgba(255, 255, 255, 0.20);
+                display: flex;
+
+                .imgBox {
+                    width: 200px;
+                    height: 112px;
+                    margin-right: 20px;
+
+                    &::before {
+                        border-radius: 4px;
+
+                    }
+
+                    img {
+                        width: 200px;
+                        height: 112px;
+                        border-radius: 4px;
+
+                    }
+                }
+
+                .des {
+                    .time {
+                        font-size: 12px;
+                        color: #f5f5f599;
+                        margin-bottom: 5px;
+                        line-height: 22px;
+                    }
+
+                    .title {
+                        font-size: 16px;
+                        color: #f5f5f5;
+                        line-height: 20px;
+                        display: block;
+                        font-weight: bolder;
+                    }
+
+                    .describe {
+                        margin: 14px 0;
+                        font-size: 16px;
+                        color: #f5f5f599;
+                    }
+
+                    .lookMore {
+                        color: #fff;
+                        font-size: 16px;
+                        border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+                        transition: all ease 0.5s;
+
+                        &:hover {
+                            border-color: #fff;
+                        }
+                    }
+
+
+
+                }
+            }
+        }
+
+        .page {
+            display: flex;
+            justify-content: center;
+
+
+
+            a {
+                display: inline-block;
+                width: 30px;
+                height: 22px;
+                color: #f5f5f599;
+
+                &:first-child {
+                    display: none;
+                }
+
+
+                &:hover {
+                    font-weight: 700;
+                    color: rgb(245, 245, 245);
+                }
+            }
+        }
+
+    }
+}
