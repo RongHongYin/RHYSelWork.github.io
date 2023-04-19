@@ -23,10 +23,15 @@ body .main .epicNews .newsBox .news .imgBox {
   width: 693px;
   height: 390px;
 }
-body .main .epicNews .newsBox .news .imgBox::before {
+body .main .epicNews .newsBox .news .imgBox a {
+  display: block;
+}
+body .main .epicNews .newsBox .news .imgBox a::before {
+  width: 693px;
+  height: 390px;
   border-radius: 4px;
 }
-body .main .epicNews .newsBox .news .imgBox img {
+body .main .epicNews .newsBox .news .imgBox a img {
   width: 693px;
   height: 390px;
   border-radius: 4px;
@@ -71,11 +76,14 @@ body .main .newList .items {
   display: flex;
 }
 body .main .newList .items .imgBox {
-  width: 200px;
-  height: 112px;
   margin-right: 20px;
 }
-body .main .newList .items .imgBox::before {
+body .main .newList .items .imgBox a {
+  display: block;
+}
+body .main .newList .items .imgBox a::before {
+  width: 200px;
+  height: 112px;
   border-radius: 4px;
 }
 body .main .newList .items .imgBox img {
@@ -120,10 +128,17 @@ body .main .page a {
   height: 22px;
   color: #f5f5f599;
 }
-body .main .page a:first-child {
+body .main .page a.hide {
   display: none;
 }
-body .main .page a:hover {
+body .main .page a:hover,
+body .main .page a.active {
   font-weight: 700;
   color: #f5f5f5;
+  cursor: pointer;
+}
+body .main .page .ellipsis:hover {
+  font-weight: normal;
+  cursor: context-menu;
+  color: #f5f5f599;
 }

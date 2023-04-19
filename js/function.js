@@ -47,15 +47,21 @@ const whatGameType = function whatGameType(type) {
         case 'applications':
             type = '软件'
             break;
-        case 'editors':
+        case 'engines':
             type = '编辑器'
             break;
         case 'games/demo':
             type = '试玩版'
             break;
         case 'games/edition/base':
+        case 'games/edition':
+
             type = '版本'
             break;
+        case 'software':
+            type = '软件'
+            break;
+
         default:
             break;
     }
@@ -108,13 +114,20 @@ const splitArray = function splitArray(arr) {
 
 //获取缩略图
 const getThumbnail = function getThumbnail(imgArr, srcObj) {
-    imgArr.some(function (item) {
-        if (item.type === 'Thumbnail') {
-            srcObj.url = item.url
-            return true
-        }
-    })
-}
+    let thumbnailData = imgArr.find(item => item.type === 'Thumbnail');
+    if (thumbnailData) {
+        srcObj.url = thumbnailData.url;
+        return thumbnailData;
+    }
+
+    let dieselGameBoxLogoData = imgArr.find(item => item.type === 'DieselGameBoxLogo');
+    if (dieselGameBoxLogoData) {
+        srcObj.url = dieselGameBoxLogoData.url;
+        return dieselGameBoxLogoData;
+    }
+
+    return null;
+};
 
 // 类似春节特惠结构数据的渲染
 const likeSpringSaleRendering = function likeSpringSaleRendering(element, value) {
@@ -505,15 +518,15 @@ const gameListBoxRendering = function gameListBoxRendering(elementAllArr, dataAl
 
 }
 
-//浏览页面数据按照40一个分页
-const splitArrayBrowse = function splitArrayBrowse(arr) {
+//数组数据按照个数分组
+const splitArrayBrowse = function splitArrayBrowse(arr, singleArraylength) {
     var newArr = [];
     var len = arr.length;
     var i = 0;
 
     while (i < len) {
-        newArr.push(arr.slice(i, i + 40));
-        i += 40;
+        newArr.push(arr.slice(i, i + singleArraylength));
+        i += singleArraylength;
     }
 
     return newArr;
@@ -617,7 +630,7 @@ const page = {
                 <a dataPage=3 class="${this.activeEle === 3 ? 'active' : ''}">3</a>
                 <a dataPage=4 class="${this.activeEle === 4 ? 'active' : ''}">4</a>
                 <a dataPage=5 class="${this.activeEle === 5 ? 'active' : ''}">5</a>
-                <a>...</a>
+                <a class="ellipsis">...</a>
                 <a dataPage="${this.data.length}">${this.data.length}</a>
                 `
             }
@@ -625,17 +638,17 @@ const page = {
         } else if (this.activeEle > 4 && this.activeEle <= this.data.length - 4) {
             this.boxHtml = `
             <a dataPage=1>1</a>
-            <a>...</a>
+            <a class="ellipsis">...</a>
             <a dataPage=${this.activeEle - 1}>${this.activeEle - 1}</a>
             <a dataPage=${this.activeEle} class="active">${this.activeEle}</a>
             <a dataPage=${this.activeEle + 1}>${this.activeEle + 1}</a>
-            <a>...</a>
+            <a class="ellipsis">...</a>
             <a>${this.data.length}</a>
             `
         } else {
             this.boxHtml = `
             <a dataPage=1 >1</a>
-            <a>...</a>
+            <a class="ellipsis">...</a>
             <a dataPage=${this.data.length - 4}  class="${this.activeEle === this.data.length - 4 ? 'active' : ''}">${this.data.length - 4}</a>
             <a dataPage=${this.data.length - 3}  class="${this.activeEle === this.data.length - 3 ? 'active' : ''}">${this.data.length - 3}</a>
             <a dataPage=${this.data.length - 2}  class="${this.activeEle === this.data.length - 2 ? 'active' : ''}">${this.data.length - 2}</a>
@@ -677,7 +690,7 @@ const page = {
             page.next()
             return
         }
-        if (!e.getAttribute('tagTpye')) {
+        if (!e.getAttribute('tagTpye') && !(e.innerHTML === '...')) {
             page.activeEle = e.getAttribute('dataPage')
             page.activeEle = Number(page.activeEle)
             setUrlRefresh()
@@ -704,7 +717,7 @@ const filterData = {
         feature: [],//特色
         platform: [],//平台
         event: [],//活动
-        type: [],//类别
+        type: ["games"],//类别
         page: {}
     },
     filterCriteriaTotal() {
@@ -720,7 +733,7 @@ const filterData = {
         feature: false,
         genre: false,
         event: false,
-
+        type: false,
     },
     //渲染
     filterHtmlRendering() {
@@ -739,6 +752,9 @@ const filterData = {
                 <button dataType="${key}"  class="iconfont icon-youjiantou ${filterData.filterBtnPlay[key] ? 'clicked' : ''}">${this.filterHtmlData[key].title}</button>
             </div>
             `
+
+
+
             let filterKind = filter.querySelector(`#${key}`)
 
             this.filterHtmlData[key].forEach((item) => {
@@ -747,15 +763,6 @@ const filterData = {
                 `
             })
         }
-        // filter.innerHTML+=`
-        // <div class="items" id="${key}">
-        //         <button dataType="${key}"  class="iconfont icon-youjiantou ${filterData.filterBtnPlay[key] ? 'clicked' : ''}">${this.filterHtmlData[key].title}</button>
-        //         <div class="specificConditions ${filterData.filterCriteria[key].includes(item.id) ? 'active' : ''}" style="${filterData.filterBtnPlay[key] ? 'display:block;' : null}" filter="${key}=${item.id}">${item.name}</div>
-
-
-        //     </div>
-        // `
-
 
     },
     //筛选器点击事件委托
@@ -791,9 +798,8 @@ const filterData = {
             let attri = et.getAttribute('filter').split('=')
             let filterCriteriaKey = attri[0]
             let filterCriteriaValue = attri[1]
-            console.log(filterData.filterCriteria[filterCriteriaKey]);
-            console.log(filterCriteriaValue);
             toggleArrayItem(filterData.filterCriteria[filterCriteriaKey], filterCriteriaValue)
+            console.log(filterData.filterCriteria);
             page.activeEle = 1
             // filterData.filterBtnPlay[filterCriteriaKey] = !filterData.filterBtnPlay[filterCriteriaKey]
             setUrlRefresh()
@@ -829,12 +835,6 @@ const urlDataGet = function urlDataGet() {
                 filterData.filterBtnPlay[key.slice(0, -7)] = true
                 return
             }
-            // {
-            //     filterData.filterBtnPlay[key.slice(0, -7)] = false
-            //     return
-            // }
-            // toggleArrayItem(filterData.filterCriteria[key], value)
-            // filterData.filterCriteria[key]=[]s
             filterData.filterCriteria[key].push(value)
         })
 
@@ -844,65 +844,65 @@ const urlDataGet = function urlDataGet() {
 }
 
 
-//数据筛选，没有type和price
 const arrFilterData = function arrFilterData(arr, obj) {
     return arr.filter(arrObj => {
-        const { tags, categories, currentPrice } = arrObj;
+
+        const { tags, categories } = arrObj;
         const { genre, feature, platform, event, type } = obj;
 
         let shouldInclude = true;
 
-        if (Array.isArray(genre) && genre.length > 0) {
-            shouldInclude = shouldInclude && genre.some(g => tags.some(tag => tag.id === g));
-        }
+        // 根据 genre、feature、platform、event 进行筛选
+        [genre, feature, platform, event].forEach(prop => {
+            if (Array.isArray(prop) && prop.length > 0) {
+                shouldInclude = shouldInclude && prop.every(p => tags.some(tag => tag.id === p));
+            }
+        });
 
-        if (Array.isArray(feature) && feature.length > 0) {
-            shouldInclude = shouldInclude && feature.some(f => tags.some(tag => tag.id === f));
-        }
-
-        if (Array.isArray(platform) && platform.length > 0) {
-            shouldInclude = shouldInclude && platform.some(p => tags.some(tag => tag.id === p));
-        }
-
-        if (Array.isArray(event) && event.length > 0) {
-            shouldInclude = shouldInclude && event.some(e => tags.some(tag => tag.id === e));
-        }
-
+        // 根据 type 进行筛选
         if (Array.isArray(type) && type.length > 0) {
-            shouldInclude = shouldInclude && type.some(e => categories.some(categorie => categorie.path === e));
+            const [firstCategorie] = categories;
+            const pathArr = firstCategorie?.path?.split() || [];
+
+            const matchedType = type.some(t => {
+                if (typeof t === 'string' && t.includes('And')) {
+                    const tArr = t.split('And');
+                    return tArr.some(tVal => pathArr.includes(tVal.trim()));
+                } else {
+                    return pathArr.includes(t);
+                }
+            });
+            shouldInclude = shouldInclude && matchedType;
         }
+
         return shouldInclude;
     });
-}
+};
+
 
 
 const webRendering = function webRendering() {
-    // urlDataGet(window.location.href)
-    page.data = splitArrayBrowse(arrFilterData(page.rawData.map(item => {
-        item.categories = item.categories.slice(0, 1)
-        return item
-    }), filterData.filterCriteria))
-    page.total = page.data.length
-    browseDataRendering(page.data[page.activeEle - 1])
-    page.rander()
-    filterData.filterHtmlRendering()
 
-    // page.
+    if (page.lookPage === 'browse') {
+        if (filterData.filterCriteriaTotal() === 1) {
+            browsePopularTypeRendering()
+        }
+        page.data = splitArrayBrowse(arrFilterData(page.rawData.map(item => {
+            item.categories = item.categories.slice(0, 1)
+            return item
+        }), filterData.filterCriteria), 40)
+        page.total = page.data.length
+        browseDataRendering(page.data[page.activeEle - 1])
+        page.rander()
+        filterData.filterHtmlRendering()
+    } else {
 
-    // console.log(page.rawData);
-    // let newRes = page.rawData.map(item => {
-    //     item.categories = item.categories.slice(0, 1)
-    //     return item
-    // })
-    // urlDataGet(window.location.href)
-    // let res = arrFilterData(newRes, filterData.filterCriteria)
-    // let newDataArr = splitArrayBrowse(res)
-    // page.data = newDataArr
-    // page.total = newDataArr.length
-    // browseDataRendering(newDataArr[page.activeEle - 1])
-    // page.rander()
-    // page.box.addEventListener("click", page.click)
-    // // filterData.filterHtmlRendering(typeArr)
+        newRendering()
+        page.rander()
+
+    }
+
+
 }
 
 
@@ -932,3 +932,157 @@ const setUrlRefresh = function setUrlRefresh() {
     webRendering()
 
 }
+
+
+//计算新闻是多少天以前的
+function getTimeDiffString(dateString) {
+    const date = new Date(dateString);
+    const now = new Date();
+    const diff = Math.floor((now - date) / (1000 * 60 * 60 * 24));
+    return `${diff}天前`;
+
+}
+
+
+
+const newRendering = function newRendering() {
+    newsBigBox.innerHTML = ''
+    for (let i = 0; i < 2; i++) {
+        newsBigBox.innerHTML += `
+        <div class="news">
+          <div class="imgBox ">
+            <a href="https://store.epicgames.com/zh-CN/news/${page.rawData[i].slug}" class="hover">
+              <img src="${page.rawData[i]._images_[0]}" alt="">
+            </a>
+          </div>
+          <div class="des">
+              <p class="time">${getTimeDiffString(page.rawData[i].lastModified)}</p>
+              <a class="title" href="https://store.epicgames.com/zh-CN/news/${page.rawData[i].slug}">${page.rawData[i].title}</a>
+              <p class="describe">${page.rawData[i].short ? page.rawData[i].short : ''}</p>
+              <a href="https://store.epicgames.com/zh-CN/news/${page.rawData[i].slug}" class="lookMore">阅读更多</a>
+          </div>
+        </div>
+        `
+    };
+
+
+    if (page.activeEle === 1) {
+        newListBox.innerHTML = `
+        <div class="items">
+        <div class="imgBox ">
+        <a href="https://store.epicgames.com/zh-CN/news/${page.rawData[2].slug}" class="hover">
+        <img src="${page.rawData[2]._images_[0]}" alt="">
+      </a>
+        </div>
+        <div class="des">
+            <p class="time iconfont icon-xingxing">${getTimeDiffString(page.rawData[2].lastModified)}</p>
+            <a href="https://store.epicgames.com/zh-CN/news/${page.rawData[2].slug}" class="title">${page.rawData[2].title}</a>
+            <p class="describe">${page.rawData[2].short ? page.rawData[2].short : ''}</p>
+            <a href="https://store.epicgames.com/zh-CN/news/${page.rawData[2].slug}" class="lookMore">阅读更多</a>
+        </div>
+    </div>
+        `
+    } else {
+        newListBox.innerHTML = ''
+    }
+    page.data[page.activeEle - 1].forEach((item, index) => {
+        console.log(item.title);
+        newListBox.innerHTML += `
+        <div class="items">
+            <div class="imgBox ">
+            <a href="https://store.epicgames.com/zh-CN/news/${item.slug}" class="hover">
+            <img src="${item._images_[0]}" alt="">
+          </a>
+            </div>
+            <div class="des">
+                <p class="time">${getTimeDiffString(item.lastModified)}</p>
+                <a href="https://store.epicgames.com/zh-CN/news/${item.slug}" class="title">${item.title}</a>
+                <p class="describe">${item.short ? item.short : ''}</p>
+                <a href="https://store.epicgames.com/zh-CN/news/${item.slug}" class="lookMore">阅读更多</a>
+            </div>
+        </div>
+      
+        `
+    })
+
+
+}
+
+
+//受欢迎的类型渲染
+const browsePopularTypeRendering = function browsePopularTypeRendering() {
+    let htmlStr = ''
+    page.browsePopularTypeData.forEach((item, index) => {
+        console.log(1221);
+        htmlStr += `
+        <div class="items">
+        `
+        // </div>
+        // `
+        item.forEach(items => {
+            console.log(items);
+            htmlStr += `
+            <a href="https://store.epicgames.com/zh-CN/c/${items.slug}" class="games hover">
+                <div class="imgBox">
+                    <div class="imgBoxItems">
+                        <img src="${items.images[0]}" alt="">
+                    </div>
+                    <div class="imgBoxItems">
+                        <img src="${items.images[1]}" alt="">
+                    </div>
+                    <div class="imgBoxItems">
+                        <img src="${items.images[2]}" alt="">
+                    </div>
+
+                </div>
+                <div class="gameType">
+                    ${items.title}
+                </div>
+            </a>
+            `
+        })
+        htmlStr += `
+            </div>
+        `
+    })
+    // let
+    browsePopularType.innerHTML = htmlStr
+    // let prev = browsePopularType.
+}
+
+
+
+const switchElementPopularType = function switchElementPopularType(element, prevButton, nextButton) {
+    const children = element.children;
+    const childWidth = children[0].offsetWidth;
+    let currentIndex = 0;
+  
+    // 点击向下切换的按钮
+    nextButton.addEventListener('click', () => {
+      if (currentIndex < children.length - 1) {
+        currentIndex++;
+      } else {
+        currentIndex = 0; // 切换到第一张
+      }
+      element.style.left = `-${currentIndex * childWidth}px`;
+      prevButton.disabled = false;
+      if (currentIndex === children.length - 1) {
+        nextButton.disabled = true;
+      }
+    });
+  
+    // 点击向上切换的按钮
+    prevButton.addEventListener('click', () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+      } else {
+        currentIndex = children.length - 1; // 切换到最后一张
+      }
+      element.style.left = `-${currentIndex * childWidth}px`;
+      nextButton.disabled = false;
+      if (currentIndex === 0) {
+        prevButton.disabled = true;
+      }
+    });
+  }
+  

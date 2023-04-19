@@ -53192,8 +53192,8 @@
                 "url": "com.epicgames.video://919ce0ed-ec0d-476c-96b0-db77a9388891"
             },
             {
-                "type":"Thumbnail",
-                "url":"https://cdn1.epicgames.com/spt-assets/a234dbd6227a4a9db5ff3cc94ddefe41/download-flat-heroes-flat-heroes-demo-offer-1bhe7.png?h=480&quality=medium&resize=1&w=360"
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/spt-assets/a234dbd6227a4a9db5ff3cc94ddefe41/download-flat-heroes-flat-heroes-demo-offer-1bhe7.png?h=480&quality=medium&resize=1&w=360"
             }
         ],
         "currentPrice": 0,
@@ -53543,6 +53543,4632 @@
         "releaseDate": "2021-12-16T13:00:00.000Z",
         "pcReleaseDate": "2021-12-16T13:00:00.000Z",
         "viewableDate": "2021-07-15T04:00:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Godot Engine",
+        "id": "ddafb7808136476fb4745d7e2622297a",
+        "namespace": "916bd3319edc4e0bbb57ed7e04ad851d",
+        "description": "Godot Engine 是一款整合的跨平台游戏引擎，您可以通过它轻松创建各种 2D 与 3D 游戏。它自带各种使用功能，并为您提供了一套适用范围广泛的工具，因此您可以专注于最重要的事情——制作自己的游戏。",
+        "effectiveDate": "2023-03-14T15:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/offer/916bd3319edc4e0bbb57ed7e04ad851d/EGS_GodotEngine_TheGodotEngine_S2_1200x1600-bb5b0d38d23b9869950d218727d6aea3"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/offer/916bd3319edc4e0bbb57ed7e04ad851d/EGS_GodotEngine_TheGodotEngine_S2_1200x1600-bb5b0d38d23b9869950d218727d6aea3"
+            },
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/offer/916bd3319edc4e0bbb57ed7e04ad851d/EGS_GodotEngine_TheGodotEngine_S1_2560x1440-44362dbc2924336fe280c96a8c1e2342"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/916bd3319edc4e0bbb57ed7e04ad851d/EGS_GodotEngine_TheGodotEngine_S2_1200x1600-bb5b0d38d23b9869950d218727d6aea3"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/916bd3319edc4e0bbb57ed7e04ad851d/EGS_GodotEngine_TheGodotEngine_S1_2560x1440-44362dbc2924336fe280c96a8c1e2342"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/916bd3319edc4e0bbb57ed7e04ad851d/EGS_GodotEngine_TheGodotEngine_S2_1200x1600-bb5b0d38d23b9869950d218727d6aea3"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-u8kg3xstasnv8bqzxel444dxmgfm25",
+            "name": "Godot Engine"
+        },
+        "productSlug": "godot-engine",
+        "urlSlug": "godot-engine",
+        "url": null,
+        "tags": [
+            {
+                "id": "1370"
+            },
+            {
+                "id": "9547"
+            },
+            {
+                "id": "1102"
+            },
+            {
+                "id": "10719"
+            }
+        ],
+        "items": [
+            {
+                "id": "2535796c754648c0a76d75b3a23a994f",
+                "namespace": "916bd3319edc4e0bbb57ed7e04ad851d"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "godot-engine"
+            }
+        ],
+        "categories": [
+            {
+                "path": "attention/in-app-purchases"
+            },
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "attention"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "attention/in-app-purchases/unsupported"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "godot-engine",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": "The Godot Engine",
+        "publisherDisplayName": "The Godot Engine",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2023-03-14T15:00:00.000Z",
+        "pcReleaseDate": "2016-02-23T15:00:00.000Z",
+        "viewableDate": "2023-03-14T15:00:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "OBSKUR",
+        "id": "9a62904bbac54a52b0ad443128b5edfc",
+        "namespace": "4ccf53762e7246b7ba4de6262978e42e",
+        "description": "An all-in-one broadcasting suite to take webcam & VTuber content to the next level! Interact with your audience, monitor engagement, generate revenue, and grow your community. Perfect for streamers who want to focus on making great content without the hassle.",
+        "effectiveDate": "2099-02-01T00:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/4ccf53762e7246b7ba4de6262978e42e/EGS_OBSKUR_OBSKUR_S1_2560x1440-ea7ea0760a1b1e6125440877821ab293"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/4ccf53762e7246b7ba4de6262978e42e/EGS_OBSKUR_OBSKUR_S2_1200x1600-3aefcc8478dea173d586f377e6a820ed"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/4ccf53762e7246b7ba4de6262978e42e/EGS_OBSKUR_OBSKUR_S2_1200x1600-3aefcc8478dea173d586f377e6a820ed"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-ucdb3hkcplxblud6l2c66f3pfgns9d",
+            "name": "Movella Inc."
+        },
+        "productSlug": "obskur",
+        "urlSlug": "obskur",
+        "url": null,
+        "tags": [
+            {
+                "id": "15909"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "b616d3dbc60d4e16bb9276b212a4f01e",
+                "namespace": "4ccf53762e7246b7ba4de6262978e42e"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "obskur"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "obskur",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": "Movella Inc.",
+        "publisherDisplayName": "Movella Inc.",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2099-02-01T00:00:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": "2023-02-13T16:00:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Outplayed",
+        "id": "3c4504f044d14699bdb96a4ecd68ece4",
+        "namespace": "2f5fbee5514a40b3895028baddd03bab",
+        "description": "截取。浏览。分享。\nOutplayed —— 为玩家们准备的终极视频截取应用。在你游玩游戏时，该应用将会自动截取你的最佳瞬间和最棒游玩。\n赛局结束之后，便可在比赛时间线上进行回顾，观看你的最棒（和不那么棒的）瞬间。",
+        "effectiveDate": "2022-12-16T20:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/2f5fbee5514a40b3895028baddd03bab/EGS_Outplayed_Overwolf_S2_1200x1600-f58446cb27b7f8bcd6e1c3cf6b1f2ae5"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/2f5fbee5514a40b3895028baddd03bab/EGS_Outplayed_Overwolf_S1_2560x1440-76d5b6e506402ffde5282ba5348d5096"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/2f5fbee5514a40b3895028baddd03bab/EGS_Outplayed_Overwolf_S2_1200x1600-f58446cb27b7f8bcd6e1c3cf6b1f2ae5"
+            },
+            {
+                "type": "ProductLogo",
+                "url": "https://cdn1.epicgames.com/offer/2f5fbee5514a40b3895028baddd03bab/EGS_Outplayed_Overwolf_IC1_400x400-8df6a1c89d539fc9061f6f7ddbf58dec"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-rylak7qvslxaqvsmrdcl44jzquctzs",
+            "name": "Overwolf"
+        },
+        "productSlug": "outplayed",
+        "urlSlug": "outplayed",
+        "url": null,
+        "tags": [
+            {
+                "id": "1264"
+            },
+            {
+                "id": "15909"
+            },
+            {
+                "id": "9547"
+            },
+            {
+                "id": "1117"
+            }
+        ],
+        "items": [
+            {
+                "id": "72ea93f158b9472d9efc846131a7a101",
+                "namespace": "2f5fbee5514a40b3895028baddd03bab"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "[]"
+            },
+            {
+                "key": "publisherName",
+                "value": "Overwolf"
+            },
+            {
+                "key": "developerName",
+                "value": "Overwolf"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "outplayed"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "outplayed",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": "Overwolf",
+        "publisherDisplayName": "Overwolf",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2022-12-16T20:00:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": "2022-12-16T20:00:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "《RPG in a Box》",
+        "id": "75ba6ccfe3bf4b12998fd6f134fae02d",
+        "namespace": "0e76e53e157d416ab598342ed3a9dd5a",
+        "description": "实现你的故事和创意！《RPG in a Box》是一款简明易懂的游戏制作工具，能够以简单有趣的形式创建游戏与其他互动体验。",
+        "effectiveDate": "2022-12-01T16:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/0e76e53e157d416ab598342ed3a9dd5a/EGS_RPGinaBox_JustinArnold_S1_2560x1440-fef2661fad4d06cee988aa2a2c3383c7"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/0e76e53e157d416ab598342ed3a9dd5a/EGS_RPGinaBox_JustinArnold_S2_1200x1600-14578736d77be5027ee1522f41bb86d9"
+            },
+            {
+                "type": "ProductLogo",
+                "url": "https://cdn1.epicgames.com/offer/0e76e53e157d416ab598342ed3a9dd5a/EGS_RPGinaBox_JustinArnold_IC1_400x222-3a9ceeb0c12ce92d9f99ff88f3ca24bf"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/0e76e53e157d416ab598342ed3a9dd5a/EGS_RPGinaBox_JustinArnold_S2_1200x1600-14578736d77be5027ee1522f41bb86d9"
+            }
+        ],
+        "currentPrice": 2399,
+        "seller": {
+            "id": "o-y37767wpezk9bpvxpg2rmwpuzdtqvs",
+            "name": "Justin Arnold"
+        },
+        "productSlug": "rpg-in-a-box",
+        "urlSlug": "rpg-in-a-box",
+        "url": null,
+        "tags": [
+            {
+                "id": "15909"
+            },
+            {
+                "id": "9547"
+            },
+            {
+                "id": "1263"
+            }
+        ],
+        "items": [
+            {
+                "id": "1da585cfc7d74fa681bf5385317cee95",
+                "namespace": "0e76e53e157d416ab598342ed3a9dd5a"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "[]"
+            },
+            {
+                "key": "publisherName",
+                "value": "Justin Arnold"
+            },
+            {
+                "key": "developerName",
+                "value": "Justin Arnold"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "rpg-in-a-box"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "rpg-in-a-box",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": "Justin Arnold",
+        "publisherDisplayName": "Justin Arnold",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 2399,
+                "originalPrice": 2399,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "€23.99",
+                    "discountPrice": "€23.99",
+                    "intermediatePrice": "€23.99"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2022-12-01T16:00:00.000Z",
+        "pcReleaseDate": "2022-05-10T12:30:00.000Z",
+        "viewableDate": "2022-11-24T15:25:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "GOG GALAXY",
+        "id": "57a7b65cfc5144179d11b3e2a62e9bd6",
+        "namespace": "bdf0b0af4c9b4cc7bb92e884e9bcdf52",
+        "description": "发现各种精心挑选的经典游戏与近期推出的最新大作，并在离线时进行游玩。创建你的跨平台游戏库：运行、游玩并管理你在 GOG 与 Epic Games 等众多平台上的游戏。",
+        "effectiveDate": "2022-10-27T13:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/bdf0b0af4c9b4cc7bb92e884e9bcdf52/EGS_GOGGALAXY_GOG_S1_2560x1440-213de31f798a560d00b58bd74df58b97"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/bdf0b0af4c9b4cc7bb92e884e9bcdf52/EGS_GOGGALAXY_GOG_S2_1200x1600-0168b8b5c79d6be4580dab9bc17034f5"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/bdf0b0af4c9b4cc7bb92e884e9bcdf52/EGS_GOGGALAXY_GOG_S2_1200x1600-0168b8b5c79d6be4580dab9bc17034f5"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-nhkrgpp6lj7py3z4g2cbfthtmkjq8m",
+            "name": "GOG Sp. z o.o."
+        },
+        "productSlug": "gog-galaxy",
+        "urlSlug": "gog-galaxy",
+        "url": null,
+        "tags": [
+            {
+                "id": "15909"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "faecc1771dad4ec09867ddfead88b5b6",
+                "namespace": "bdf0b0af4c9b4cc7bb92e884e9bcdf52"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "publisherName",
+                "value": "GOG Sp. z o.o."
+            },
+            {
+                "key": "developerName",
+                "value": "GOG Sp. z o.o."
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "gog-galaxy"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "gog-galaxy",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": "GOG",
+        "publisherDisplayName": "GOG",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2022-10-27T13:00:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": "2022-10-27T13:00:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Razer Cortex",
+        "id": "09bf3ec654d34c7b9f911be32f2f699f",
+        "namespace": "d27fa3ce4c3a40be99b4fa0b59caca0f",
+        "description": "提升你的系统性能，以及视觉效果，帧率，载入时间以及更多内容。包括 PC 游戏价格比对工具。以上功能及更多内容，均包含在一个强力应用中。",
+        "effectiveDate": "2022-10-13T02:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/d27fa3ce4c3a40be99b4fa0b59caca0f/EGS_RazerCortex_Razer_S2_1200x1600-5b0b996c740bb4eea865c1fdef7ba45e"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/d27fa3ce4c3a40be99b4fa0b59caca0f/EGS_RazerCortex_Razer_S1_2560x1440-dafd0a1e5a620683fc467a7b40225d0a"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/d27fa3ce4c3a40be99b4fa0b59caca0f/EGS_RazerCortex_Razer_S2_1200x1600-5b0b996c740bb4eea865c1fdef7ba45e"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-6frcfjfwmrb5hftn67l5g99swz7h9q",
+            "name": "Razer Inc."
+        },
+        "productSlug": "razer-cortex",
+        "urlSlug": "razercortex-general-audience",
+        "url": null,
+        "tags": [
+            {
+                "id": "15909"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "14872e5279d6415ea5979ec77f4029af",
+                "namespace": "d27fa3ce4c3a40be99b4fa0b59caca0f"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "razer-cortex"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "razer-cortex",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": "Razer",
+        "publisherDisplayName": "Razer",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2022-10-13T02:00:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": "2022-10-13T02:00:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "TIDAL Music",
+        "id": "f1084c330acb42a9b046bda02756a2bb",
+        "namespace": "c90815f33d1b490b841e4ac8d50a8b9d",
+        "description": "使用 TIDAL 来提升你的音乐流媒体体验，以诸如 HiFi（高保真）以及 MQA（Master Quality Authenticated）等高级格式，来畅享超过九千万首音乐以及超过 450000 个视频",
+        "effectiveDate": "2022-10-10T10:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/c90815f33d1b490b841e4ac8d50a8b9d/EGS_TIDALMusic_TIDALMusic_S5_1920x1080-6012b78a46dce7cd9993129326496bde"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/c90815f33d1b490b841e4ac8d50a8b9d/EGS_TIDALMusic_TIDALMusic_S6_1200x1600-b297e7481105282bad974f007f431fc4"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/c90815f33d1b490b841e4ac8d50a8b9d/EGS_TIDALMusic_TIDALMusic_S2_1200x1600-b297e7481105282bad974f007f431fc4"
+            },
+            {
+                "type": "ProductLogo",
+                "url": "https://cdn1.epicgames.com/offer/c90815f33d1b490b841e4ac8d50a8b9d/EGS_TIDALMusic_TIDALMusic_IC1_400x400-1f2c130ce69383e20ea4697aba82c39e"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-6h887ea3rmbwmd6kvlqxmypdc428z5",
+            "name": "TIDAL Music"
+        },
+        "productSlug": "tidal-music",
+        "urlSlug": "tidal-music",
+        "url": null,
+        "tags": [
+            {
+                "id": "15909"
+            },
+            {
+                "id": "1129"
+            },
+            {
+                "id": "9547"
+            },
+            {
+                "id": "10719"
+            }
+        ],
+        "items": [
+            {
+                "id": "1af8f1d1184447849bef3de96a071371",
+                "namespace": "c90815f33d1b490b841e4ac8d50a8b9d"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "publisherName",
+                "value": "TIDAL"
+            },
+            {
+                "key": "developerName",
+                "value": "TIDAL"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "tidal-music"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "tidal-music",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": "TIDAL Music",
+        "publisherDisplayName": "Aspiro AB",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2022-10-10T10:00:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": "2022-10-10T10:00:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Antstream Arcade",
+        "id": "47675d1045724055bf54cdf30f7d5e84",
+        "namespace": "7c7e1c220ce74bd8b5df4190ca7c3098",
+        "description": "海量复古游戏一网打尽！Antstream Arcade 拥有超过 1000 款复古游戏，是目前最大的复古游戏云平台。独一无二的现代复古游戏体验，包括多项集成特色，例如挑战（Challenge）、多人模式（Multiplayer）和锦标赛（Tournament）等。",
+        "effectiveDate": "2022-05-11T17:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/7c7e1c220ce74bd8b5df4190ca7c3098/EGS_AntstreamArcade_AntstreamArcade_S2_1200x1600-51f429112f08dfbae6729a277a188c71"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/7c7e1c220ce74bd8b5df4190ca7c3098/EGS_AntstreamArcade_AntstreamArcade_S1_2560x1440-8ae146d585670ad4caf8b4dae952b3b4"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/offer/7c7e1c220ce74bd8b5df4190ca7c3098/EGS_AntstreamArcade_AntstreamArcade_S2_1200x1600-51f429112f08dfbae6729a277a188c71"
+            },
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/offer/7c7e1c220ce74bd8b5df4190ca7c3098/EGS_AntstreamArcade_AntstreamArcade_S1_2560x1440-8ae146d585670ad4caf8b4dae952b3b4"
+            },
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/offer/7c7e1c220ce74bd8b5df4190ca7c3098/EGS_AntstreamArcade_AntstreamArcade_S2_1200x1600-51f429112f08dfbae6729a277a188c71"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/7c7e1c220ce74bd8b5df4190ca7c3098/EGS_AntstreamArcade_AntstreamArcade_S2_1200x1600-51f429112f08dfbae6729a277a188c71"
+            }
+        ],
+        "currentPrice": 3999,
+        "seller": {
+            "id": "o-speq76scv8am7vzycvs8ntmktf58vl",
+            "name": "Antstream"
+        },
+        "productSlug": "antstream-arcade",
+        "urlSlug": "anstream-arcade-premium",
+        "url": null,
+        "tags": [
+            {
+                "id": "1264"
+            },
+            {
+                "id": "1296"
+            },
+            {
+                "id": "1203"
+            },
+            {
+                "id": "15909"
+            },
+            {
+                "id": "1370"
+            },
+            {
+                "id": "9547"
+            },
+            {
+                "id": "1198"
+            },
+            {
+                "id": "10719"
+            }
+        ],
+        "items": [
+            {
+                "id": "8fac311164c9466c8216f9db190801ce",
+                "namespace": "7c7e1c220ce74bd8b5df4190ca7c3098"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "antstream-arcade"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "antstream-arcade",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": "Antstream Arcade",
+        "publisherDisplayName": "Antstream Limited",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 3999,
+                "originalPrice": 3999,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "€39.99",
+                    "discountPrice": "€39.99",
+                    "intermediatePrice": "€39.99"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2022-05-11T17:00:00.000Z",
+        "pcReleaseDate": "2021-11-18T16:00:00.000Z",
+        "viewableDate": "2022-05-11T17:00:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "NASA XOSS MarsXR Editor",
+        "id": "6eb77ed84ba94a29b8ed4654234e9024",
+        "namespace": "805e305079574c5aba74e84032f9948b",
+        "description": "NASA XOSS UE5 Editor 将为你提供一系列基础工具，为美国国家航空航天局火星扩展现实挑战（NASA MarsXR Challenge）打造你自己的火星地表使用的多用户舱外活动（EVA）。 ",
+        "effectiveDate": "2022-05-05T12:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/offer/805e305079574c5aba74e84032f9948b/EGS_NASAXOSSMarsXREditor_Buendea_Editions_S1_2560x1440-5c89e536ab1ea4fa1b23f9e617e5c89f"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/805e305079574c5aba74e84032f9948b/EGS_NASAXOSSMarsXREditor_Buendea_Editions_S2_1200x1600-fe9573050617452cf6523f00cc487833"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/offer/805e305079574c5aba74e84032f9948b/EGS_NASAXOSSMarsXREditor_Buendea_Editions_S2_1200x1600-fe9573050617452cf6523f00cc487833_1200x1600-fe9573050617452cf6523f00cc487833"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-bkgtnyn7alajmfspxqy8afxl5puwmy",
+            "name": "Buendea"
+        },
+        "productSlug": "nasa-xoss-marsxr-editor",
+        "urlSlug": "nasaxoss-general-audience",
+        "url": null,
+        "tags": [
+            {
+                "id": "15909"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "90b2dd6150874f21abf042c49e45fb5b",
+                "namespace": "805e305079574c5aba74e84032f9948b"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "nasa-xoss-marsxr-editor"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "nasa-xoss-marsxr-editor",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": "Buendea",
+        "publisherDisplayName": "Buendea",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2022-05-05T12:00:00.000Z",
+        "pcReleaseDate": "2022-05-05T12:00:00.000Z",
+        "viewableDate": "2022-05-04T00:00:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Beyond CAD",
+        "id": "4599d2bbc4514bdab955859c48b2e59a",
+        "namespace": "90f53a7187d7472598d25f765f7cba82",
+        "description": "Beyond CAD 是为运输以及其他土木工程项目打造的最为强大的 3D 可视化引擎。你可以花费更少的时间与预算，来实现行业领先的 3D 图像和视频渲染。",
+        "effectiveDate": "2022-04-01T15:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/90f53a7187d7472598d25f765f7cba82/EGS_BeyondCAD_BeyondCAD_S2_1200x1600-76b4a1372753e76dc4bb0ae525c49770"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/90f53a7187d7472598d25f765f7cba82/EGS_BeyondCAD_BeyondCAD_S1_2560x1440-d76002a8441f7fa8489dfbf7299d6631"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/90f53a7187d7472598d25f765f7cba82/EGS_BeyondCAD_BeyondCAD_S2_1200x1600-76b4a1372753e76dc4bb0ae525c49770"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-w2hr4v3fy4sfvr3l5j7wxbcy6crv2l",
+            "name": "Beyond CAD"
+        },
+        "productSlug": "beyond-cad",
+        "urlSlug": "beyond-cad",
+        "url": null,
+        "tags": [
+            {
+                "id": "1393"
+            },
+            {
+                "id": "1370"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "ac3cc964c1984eaab3f2655ad268680a",
+                "namespace": "90f53a7187d7472598d25f765f7cba82"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "[]"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "beyond-cad"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "beyond-cad",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": "Beyondware",
+        "publisherDisplayName": "Beyond CAD",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2022-04-01T15:00:00.000Z",
+        "pcReleaseDate": "2022-04-01T15:00:00.000Z",
+        "viewableDate": "2022-03-30T15:00:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Beyond Typicals",
+        "id": "36e1a773e8bb44248c5f556be613a844",
+        "namespace": "be596f0df1464cda8012c4dcb72478bf",
+        "description": "Beyond Typicals 是一款无比简单却又异常强大的典型断面图制作工具,可以为城市规划师、道路设计师、公共官员、承包商、土木工程师、项目经理、地方倡导者等所用。",
+        "effectiveDate": "2022-03-24T12:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/offer/be596f0df1464cda8012c4dcb72478bf/EGS_BeyondTypicals_Beyondware_S4_1200x1600-12e9d378a6c160e11d0a385ef84a4c27"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/be596f0df1464cda8012c4dcb72478bf/EGS_BeyondTypicals_Beyondware_S4_1200x1600-12e9d378a6c160e11d0a385ef84a4c27"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/be596f0df1464cda8012c4dcb72478bf/EGS_BeyondTypicals_Beyondware_S4_1200x1600-12e9d378a6c160e11d0a385ef84a4c27"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/be596f0df1464cda8012c4dcb72478bf/EGS_BeyondTypicals_Beyondware_S3_2560x1440-1f1623b4985d0b496f00bf87a7fe04b9"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-w2hr4v3fy4sfvr3l5j7wxbcy6crv2l",
+            "name": "Beyond CAD"
+        },
+        "productSlug": "beyond-typicals",
+        "urlSlug": "beyond-typicals",
+        "url": null,
+        "tags": [
+            {
+                "id": "1393"
+            },
+            {
+                "id": "1370"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "f6706e4471e649c599d7ff89f169d316",
+                "namespace": "be596f0df1464cda8012c4dcb72478bf"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "[]"
+            },
+            {
+                "key": "publisherName",
+                "value": "Beyond CAD"
+            },
+            {
+                "key": "developerName",
+                "value": "Beyond CAD"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "beyond-typicals"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "beyond-typicals",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": "Beyondware",
+        "publisherDisplayName": "Beyondware",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2022-03-24T12:00:00.000Z",
+        "pcReleaseDate": "2022-03-24T12:00:00.000Z",
+        "viewableDate": "2022-03-22T22:29:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Humble",
+        "id": "29606acb488941e4b35f9b2ed3e72f65",
+        "namespace": "c054cb640d57494c92490932a148323b",
+        "description": "Humble",
+        "effectiveDate": "2022-02-10T15:45:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/c054cb640d57494c92490932a148323b/EGS_Humbleapp_Humble_S2_1200x1600-5eb4725ed80123707a8c631740fccad7"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/c054cb640d57494c92490932a148323b/EGS_Humbleapp_Humble_S3_2560x1440-0cf0df5f8a215722f999cca3c2c3b288"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/c054cb640d57494c92490932a148323b/EGS_Humbleapp_Humble_S2_1200x1600-5eb4725ed80123707a8c631740fccad7"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-n53txkb32g9vyflb5al88nshbf9b8f",
+            "name": "Humble Bundle"
+        },
+        "productSlug": "humble",
+        "urlSlug": "gogreen-general-audience",
+        "url": null,
+        "tags": [
+            {
+                "id": "15909"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "a0f612af13e44541b31cae0f36dfd238",
+                "namespace": "c054cb640d57494c92490932a148323b"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "humble"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "humble",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": "Humble Bundle  ",
+        "publisherDisplayName": "Humble Bundle  ",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2022-02-10T15:45:00.000Z",
+        "pcReleaseDate": "2022-02-10T15:45:00.000Z",
+        "viewableDate": "2022-02-10T15:45:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "N0va Desktop",
+        "id": "d686c3337ea8406f81f13902078501fc",
+        "namespace": "591075eb5c4547bd9d490edb66f1dde4",
+        "description": "miHoYo's live wallpaper app.\nSimply click the desktop to wake Lumi up.\nEnjoy an immersive experience with a lovely companion that's always by your side!\n\n",
+        "effectiveDate": "2022-01-27T04:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/591075eb5c4547bd9d490edb66f1dde4/EGS_N0vaDesktop_miHoYoLimited_S2_1200x1600-660b6d23a697a4ac750acbe1a9c7f77d"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/591075eb5c4547bd9d490edb66f1dde4/EGS_N0vaDesktop_miHoYoLimited_S1_2560x1440-37b938303bc27c0fad9c16b038d66970"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/591075eb5c4547bd9d490edb66f1dde4/EGS_N0vaDesktop_miHoYoLimited_S2_1200x1600-660b6d23a697a4ac750acbe1a9c7f77d"
+            },
+            {
+                "type": "ProductLogo",
+                "url": "https://cdn1.epicgames.com/offer/591075eb5c4547bd9d490edb66f1dde4/EGS_N0vaDesktop_miHoYoLimited_IC1_400x400-71a1770ea9bff39560d9c98ba0013fdb"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-wlaqew5gv79ufa3slnqhhsqbpjdvnb",
+            "name": "Cognosphere"
+        },
+        "productSlug": null,
+        "urlSlug": "sacramentogeneralaudience",
+        "url": null,
+        "tags": [
+            {
+                "id": "15909"
+            },
+            {
+                "id": "1370"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "b58fadd705e9494c9a1edda33ccbed79",
+                "namespace": "591075eb5c4547bd9d490edb66f1dde4"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "CN"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "n0va-desktop",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": "miHoYo Limited",
+        "publisherDisplayName": " COGNOSPHERE PTE. LTD.",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2022-01-27T04:00:00.000Z",
+        "pcReleaseDate": "2022-01-27T04:00:00.000Z",
+        "viewableDate": "2022-01-25T23:30:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Opera GX - 首款为玩家而生的浏览器",
+        "id": "7191d2a7620741448c1a7b2193f8a3a7",
+        "namespace": "0768071d71f74091a237eacef8dd9575",
+        "description": "您可以借助内置的 CPU、内存和网络带宽限制器，以及侧边栏中集成的 Discord 与 Twitch，获得无与伦比的游戏和浏览体验。通过免费 VPN 与内置的广告拦截器，享受兼具浏览速度与私密性的网页浏览器。",
+        "effectiveDate": "2022-01-25T18:00:58.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/offer/0768071d71f74091a237eacef8dd9575/EGS_OperaGXTheFirstBrowserforGamers_OperaGX_S2_1200x1600-aabcbe71a097c2446ae3a6fc84e3fa7e"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/offer/0768071d71f74091a237eacef8dd9575/EGS_OperaGXTheFirstBrowserforGamers_OperaGX_S2_1200x1600-aabcbe71a097c2446ae3a6fc84e3fa7e"
+            },
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/offer/0768071d71f74091a237eacef8dd9575/EGS_OperaGXTheFirstBrowserforGamers_OperaGX_S1_2560x1440-7812dabd45cd414c5bf1e5d944edb2d5"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/0768071d71f74091a237eacef8dd9575/EGS_OperaGXTheFirstBrowserforGamers_OperaGX_S2_1200x1600-aabcbe71a097c2446ae3a6fc84e3fa7e"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/0768071d71f74091a237eacef8dd9575/EGS_OperaGXTheFirstBrowserforGamers_OperaGX_S1_2560x1440-7812dabd45cd414c5bf1e5d944edb2d5"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/0768071d71f74091a237eacef8dd9575/EGS_OperaGXTheFirstBrowserforGamers_OperaGX_S2_1200x1600-aabcbe71a097c2446ae3a6fc84e3fa7e"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-hnlmdh64ejx8xrg7clqlhbvp4bqz7v",
+            "name": "Opera Norway AS"
+        },
+        "productSlug": "opera-gx-the-first-browser-for-gamers",
+        "urlSlug": "opera-gx-the-first-browser-for-gamers",
+        "url": null,
+        "tags": [
+            {
+                "id": "9547"
+            },
+            {
+                "id": "10719"
+            }
+        ],
+        "items": [
+            {
+                "id": "14483022111349c98eec7d6aae03771c",
+                "namespace": "0768071d71f74091a237eacef8dd9575"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "[]"
+            },
+            {
+                "key": "publisherName",
+                "value": "Opera GX"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "opera-gx-the-first-browser-for-gamers"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "opera-gx-the-first-browser-for-gamers",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2022-01-25T18:00:00.000Z",
+        "pcReleaseDate": "2019-06-11T12:00:00.000Z",
+        "viewableDate": "2022-01-25T18:00:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Discord",
+        "id": "41d30a1df0474cc698d1c5f8e30feb1d",
+        "namespace": "5f3c898b2a3244af99e9900e015717f8",
+        "description": "Discord 可让你为你的社群和好友打造一个美好的家。在这里，你们可以保持密切联系，通过文本、语音和视频开心畅玩。",
+        "effectiveDate": "2021-06-10T15:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/egs-discord-discord-s1-2560x1440-51474ee7abe3_2560x1440-e14a2b58e93768f0abc47dbf62a4ee86"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/egs-discord-discord-s2-1200x1600-7f26149140c8_1200x1600-14fff66a6835df9c5915cd015cd7fefb"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/egs-discord-discord-s2-1200x1600-7f26149140c8_1200x1600-14fff66a6835df9c5915cd015cd7fefb"
+            },
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/egs-discord-discord-s2-1200x1600-7f26149140c8_1200x1600-14fff66a6835df9c5915cd015cd7fefb"
+            },
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/egs-discord-discord-s1-2560x1440-51474ee7abe3_2560x1440-e14a2b58e93768f0abc47dbf62a4ee86"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/egs-discord-discord-s2-1200x1600-7f26149140c8_1200x1600-14fff66a6835df9c5915cd015cd7fefb"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-78dgatrfv9b22akubafkyfcm3sbxf5",
+            "name": "Discord Inc"
+        },
+        "productSlug": "discord",
+        "urlSlug": "discord",
+        "url": null,
+        "tags": [
+            {
+                "id": "15909"
+            },
+            {
+                "id": "9547"
+            },
+            {
+                "id": "10719"
+            }
+        ],
+        "items": [
+            {
+                "id": "9be80f7374434938ac23e3316301ebd9",
+                "namespace": "5f3c898b2a3244af99e9900e015717f8"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "publisherName",
+                "value": "Discord"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "discord"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "discord",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2021-06-10T15:00:00.000Z",
+        "pcReleaseDate": "2015-05-13T15:00:00.000Z",
+        "viewableDate": "2021-05-06T17:20:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "《KenShape》",
+        "id": "826d7970fddb47fa980b6bf6ef8a7ab4",
+        "namespace": "f4a740c6f9f04b6f84796f23d9c91c64",
+        "description": "《KenShape》可通过组合各种形状绘制的 2D 像素图来生成 3D 模型。本软件输出的模型可兼容多数游戏引擎，任何拥有基础绘画技能的用户都可为他们正在制作的游戏或者其他项目生成高质量的 3D 模型。",
+        "effectiveDate": "2021-04-22T13:45:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_KenShape_Kenney_S1_2560x1440-b149e6538291f08bbe38ed4ffbc7ec29"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_KenShape_Kenney_S2_1200x1600-50d869190b78aed6e7a0b2992a8c8acd"
+            },
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_KenShape_Kenney_S2_1200x1600-50d869190b78aed6e7a0b2992a8c8acd"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_KenShape_Kenney_S2_1200x1600-50d869190b78aed6e7a0b2992a8c8acd"
+            },
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_KenShape_Kenney_S1_2560x1440-b149e6538291f08bbe38ed4ffbc7ec29"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_KenShape_Kenney_S2_1200x1600-50d869190b78aed6e7a0b2992a8c8acd"
+            }
+        ],
+        "currentPrice": 319,
+        "seller": {
+            "id": "o-6lvxa96ysurn58haxxeeug959zsrhe",
+            "name": "Kenney"
+        },
+        "productSlug": "kenshape",
+        "urlSlug": "kenshape-general-audience",
+        "url": null,
+        "tags": [
+            {
+                "id": "15909"
+            },
+            {
+                "id": "1110"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "eb698bbf374f42c9844a1c5a391da4d9",
+                "namespace": "f4a740c6f9f04b6f84796f23d9c91c64"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "[]"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "kenshape"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "kenshape",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": "Kenney",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 319,
+                "originalPrice": 319,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "€3.19",
+                    "discountPrice": "€3.19",
+                    "intermediatePrice": "€3.19"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2021-04-22T13:45:00.000Z",
+        "pcReleaseDate": "2021-02-24T15:00:00.000Z",
+        "viewableDate": "2021-04-22T13:45:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "itch.io",
+        "id": "87bef1a6aaeb4723925b663f1226987b",
+        "namespace": "5688a1fee5204ee4968b96e70c75f50b",
+        "description": "itch.io 应用 itch 让你从 itch.io 下载并运行游戏和软件。你下载的全部内容都将集中存储，并自动进行更新。通过应用内浏览器，来查看你的收藏与购买，或浏览商店，寻找新游戏。",
+        "effectiveDate": "2021-04-22T13:45:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_itch_itchio_S1_2560x1440-1f57f016693b447e7759918f54aea344"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_itch_itchio_S2_1200x1600-a6b5e8f4b70c45a7758ad780826a99e4"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_itch_itchio_S2_1200x1600-a6b5e8f4b70c45a7758ad780826a99e4"
+            },
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_itch_itchio_S2_1200x1600-a6b5e8f4b70c45a7758ad780826a99e4"
+            },
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_itch_itchio_S1_2560x1440-1f57f016693b447e7759918f54aea344"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_itch_itchio_S2_1200x1600-a6b5e8f4b70c45a7758ad780826a99e4"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-ygg2pglfxmrfb897utdyrwnt434qbx",
+            "name": "Itch Corp."
+        },
+        "productSlug": "itch-io",
+        "urlSlug": "parmesan-general-audience",
+        "url": null,
+        "tags": [
+            {
+                "id": "15909"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "f1f425f573714821a7265f8ac0c9c1d0",
+                "namespace": "5688a1fee5204ee4968b96e70c75f50b"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "KR"
+            },
+            {
+                "key": "publisherName",
+                "value": "itch.io"
+            },
+            {
+                "key": "developerName",
+                "value": "itch.io"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "itch-io"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "itch-io",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2021-04-22T13:45:00.000Z",
+        "pcReleaseDate": "2013-03-03T15:00:00.000Z",
+        "viewableDate": "2021-04-22T13:45:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "《Krita》",
+        "id": "157ebfb4009743a4a818a1e32466ca7d",
+        "namespace": "1285dfc03f134184aef8e12eef6b6cd3",
+        "description": "《Krita》是一款为画师，概念草图绘师，画家，漫画创作者，哑光画家和纹理贴图画家以及特效而设计的开源桌面绘画软件。",
+        "effectiveDate": "2021-04-22T13:45:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/1285dfc03f134184aef8e12eef6b6cd3/offer/krita-1200x1600-6e02fc12b5296bf69396bc6127a065e8.jpg"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/1285dfc03f134184aef8e12eef6b6cd3/offer/krita-1200x1600-6e02fc12b5296bf69396bc6127a065e8.jpg"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/1285dfc03f134184aef8e12eef6b6cd3/offer/krita-1200x1600-6e02fc12b5296bf69396bc6127a065e8.jpg"
+            },
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/1285dfc03f134184aef8e12eef6b6cd3/offer/krita-1200x1600-6e02fc12b5296bf69396bc6127a065e8.jpg"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/1285dfc03f134184aef8e12eef6b6cd3/offer/ccd6297d-8e9d-4c34-a147-d9ee180c3078-2560x1440-85c7807ede1e7c4acf740569233dd38c.jpg"
+            },
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/1285dfc03f134184aef8e12eef6b6cd3/offer/ccd6297d-8e9d-4c34-a147-d9ee180c3078-2560x1440-85c7807ede1e7c4acf740569233dd38c.jpg"
+            }
+        ],
+        "currentPrice": 799,
+        "seller": {
+            "id": "o-khl2zdabt955claevthfgwxhgd7gnc",
+            "name": "Boudewijn Rempt Software"
+        },
+        "productSlug": "krita",
+        "urlSlug": "krita",
+        "url": null,
+        "tags": [
+            {
+                "id": "15909"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "770c90cdd6be4ba8862d5ce2139be7c9",
+                "namespace": "1285dfc03f134184aef8e12eef6b6cd3"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "[]"
+            },
+            {
+                "key": "publisherName",
+                "value": "Krita Project"
+            },
+            {
+                "key": "developerName",
+                "value": "Krita Team"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "krita"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "krita",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 799,
+                "originalPrice": 799,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "€7.99",
+                    "discountPrice": "€7.99",
+                    "intermediatePrice": "€7.99"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2021-04-22T13:45:00.000Z",
+        "pcReleaseDate": "2005-06-21T15:00:00.000Z",
+        "viewableDate": "2021-04-22T13:45:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Brave",
+        "id": "cca1487906d84402ad0eb1159bc559b1",
+        "namespace": "02ad04ef7a91432b93caef1f421ca67f",
+        "description": "来为你的游戏生涯增添一把火热速度以及无与伦比的隐私保护体验。Brave 将为你清除那些拖慢性能的鬼祟广告以及追踪程序。而结果是？一款比其他浏览器快 3 倍的产品，将为你节省可贵的电池寿命。现在就加入 2900 万以上用户，来使用 Brave 吧！",
+        "effectiveDate": "2021-04-22T13:45:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/02ad04ef7a91432b93caef1f421ca67f/offer/EGS_Bravefastestbrowserforallyourgamingneeds_BraveSoftwareInc_S1-2560x1440-a0266eccb3eed0b03662f4986c16a28e.jpg"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/02ad04ef7a91432b93caef1f421ca67f/offer/EGS_Bravefastestbrowserforallyourgamingneeds_BraveSoftwareInc_S2-1200x1600-5c125d7d664efe7966a50526d27d530f.jpg"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/02ad04ef7a91432b93caef1f421ca67f/offer/EGS_Bravefastestbrowserforallyourgamingneeds_BraveSoftwareInc_S2-1200x1600-5c125d7d664efe7966a50526d27d530f.jpg"
+            },
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/02ad04ef7a91432b93caef1f421ca67f/offer/EGS_Bravefastestbrowserforallyourgamingneeds_BraveSoftwareInc_S2-1200x1600-5c125d7d664efe7966a50526d27d530f.jpg"
+            },
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/02ad04ef7a91432b93caef1f421ca67f/offer/EGS_Bravefastestbrowserforallyourgamingneeds_BraveSoftwareInc_S1-2560x1440-a0266eccb3eed0b03662f4986c16a28e.jpg"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/02ad04ef7a91432b93caef1f421ca67f/offer/EGS_Bravefastestbrowserforallyourgamingneeds_BraveSoftwareInc_S2-1200x1600-5c125d7d664efe7966a50526d27d530f.jpg"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-hx4hxya49vl4zjxyjz5wc3ujukplfq",
+            "name": "Brave Software, Inc"
+        },
+        "productSlug": "brave",
+        "urlSlug": "scandiumgeneralaudience",
+        "url": null,
+        "tags": [
+            {
+                "id": "15909"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "d882eaeccde44f0eb8ab623df331060a",
+                "namespace": "02ad04ef7a91432b93caef1f421ca67f"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "[]"
+            },
+            {
+                "key": "publisherName",
+                "value": "Brave Software, Inc."
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "brave"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "brave",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2021-04-22T13:45:00.000Z",
+        "pcReleaseDate": "2019-11-13T16:00:00.000Z",
+        "viewableDate": "2021-04-22T13:45:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Spotify: Music and Podcasts",
+        "id": "9f2abdb36ffe42798f1497031cc4e4a8",
+        "namespace": "61dbcd85808d4125ba873ba90385949b",
+        "description": "使用 Spotify，你可以免费播放数以百万计的曲目。聆听你最爱的曲目，并畅享来自全世界的音乐。• 搜索你最爱的歌曲，艺人或专辑。• 发现全新的音乐，视频和 podcasts。",
+        "effectiveDate": "2020-12-17T15:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/61dbcd85808d4125ba873ba90385949b/EGS_SpotifyMusicandPodcasts_SpotifyAB_S1_2560x1440-aee46a0586da12280c7937642e39cd50"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/61dbcd85808d4125ba873ba90385949b/EGS_SpotifyMusicandPodcasts_SpotifyAB_S2_1200x1600-467115f64313c85e32cbd4147902207a"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/61dbcd85808d4125ba873ba90385949b/EGS_SpotifyMusicandPodcasts_SpotifyAB_S2_1200x1600-467115f64313c85e32cbd4147902207a"
+            },
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/offer/61dbcd85808d4125ba873ba90385949b/EGS_SpotifyMusicandPodcasts_SpotifyAB_S2_1200x1600-467115f64313c85e32cbd4147902207a"
+            },
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/offer/61dbcd85808d4125ba873ba90385949b/EGS_SpotifyMusicandPodcasts_SpotifyAB_S1_2560x1440-aee46a0586da12280c7937642e39cd50"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/offer/61dbcd85808d4125ba873ba90385949b/EGS_SpotifyMusicandPodcasts_SpotifyAB_S2_1200x1600-467115f64313c85e32cbd4147902207a"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-alaz7vst7l33d38ghgf9z4fkbkpr58",
+            "name": "Spotify Technology S.A."
+        },
+        "productSlug": "spotify",
+        "urlSlug": "spotify",
+        "url": null,
+        "tags": [
+            {
+                "id": "15909"
+            },
+            {
+                "id": "1110"
+            },
+            {
+                "id": "1129"
+            },
+            {
+                "id": "9547"
+            },
+            {
+                "id": "10719"
+            }
+        ],
+        "items": [
+            {
+                "id": "eb90265366484aa2b05492e35255361a",
+                "namespace": "61dbcd85808d4125ba873ba90385949b"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "AF,AQ,AW,BV,IO,CF,CN,CU,ER,ET,TF,HM,IR,MM,AN,KP,OM,SO,GS,SS,SD,SY,TM,VA,YE"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "spotify"
+            }
+        ],
+        "categories": [
+            {
+                "path": "software"
+            },
+            {
+                "path": "software/edition"
+            },
+            {
+                "path": "software/edition/base"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "spotify",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": "Spotify Technology S.A.",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2020-12-17T15:00:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": "2020-12-17T14:55:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "The Bus - Modding Editor",
+        "id": "aaaf2a280e7d4e0c8bc87e899b91cdf8",
+        "namespace": "20f00ccb480046359d4bf8d65d9a8e69",
+        "description": "使用 The Bus Modding Editor，来发挥你的想象，打造全新功能与世界。使用现有的内容库与内置的工具，你能够快速方便的为《The Bus》打造新的线路与城市。",
+        "effectiveDate": "2023-02-06T09:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/20f00ccb480046359d4bf8d65d9a8e69/EGS_TheBusModdingEditor_TMLStudios_S2_1200x1600-9584ac89e5f1c24e24d299ec22664f21"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/20f00ccb480046359d4bf8d65d9a8e69/EGS_TheBusModdingEditor_TMLStudios_S1_2560x1440-1998ea28e58199c1de0d6f1206fe33c4"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/20f00ccb480046359d4bf8d65d9a8e69/EGS_TheBusModdingEditor_TMLStudios_S2_1200x1600-9584ac89e5f1c24e24d299ec22664f21"
+            },
+            {
+                "type": "ProductLogo",
+                "url": "https://cdn1.epicgames.com/offer/20f00ccb480046359d4bf8d65d9a8e69/EGS_TheBusModdingEditor_TMLStudios_IC1_400x271-69cb390ae7797652edec11fc48ba7a08"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-tmghqxxcpdrrggyaq86fypem67zjh7",
+            "name": "TML Edition GmbH"
+        },
+        "productSlug": "the-bus-modding-editor",
+        "urlSlug": "the-bus-modding-editor",
+        "url": null,
+        "tags": [
+            {
+                "id": "1393"
+            },
+            {
+                "id": "1307"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "9be1a229dafc40849f27b27abc1e090b",
+                "namespace": "20f00ccb480046359d4bf8d65d9a8e69"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "the-bus-modding-editor"
+            }
+        ],
+        "categories": [
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "the-bus-modding-editor",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": "TML Studios",
+        "publisherDisplayName": "TML Studios",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2023-02-06T09:00:00.000Z",
+        "pcReleaseDate": "2023-02-06T09:00:00.000Z",
+        "viewableDate": "2023-02-06T09:00:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "LEAP Mod Editor",
+        "id": "c15b466383a042d68a70755e5b506e61",
+        "namespace": "8157b8921bc94f42aafecf98868124b2",
+        "description": "《LEAP》是一款快节奏多人第一人称射击游戏，其中多达 60 名武装到牙齿的玩家将掀起史诗级的战斗。使用模组编辑器来创建地图，修改游戏平衡性，或在《LEAP》的生态系统之内打造全新的游戏。",
+        "effectiveDate": "2022-06-01T15:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/8157b8921bc94f42aafecf98868124b2/EGS_LEAPModEditor_BlueIsleStudios_S2_1200x1600-cea5882a76b68226ddb4e4d8c41fad73"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/8157b8921bc94f42aafecf98868124b2/EGS_LEAPModEditor_BlueIsleStudios_S1_2560x1440-71f106eaba4b0eaa507bab57cfef3805"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/8157b8921bc94f42aafecf98868124b2/EGS_LEAPModEditor_BlueIsleStudios_S2_1200x1600-cea5882a76b68226ddb4e4d8c41fad73"
+            },
+            {
+                "type": "ProductLogo",
+                "url": "https://cdn1.epicgames.com/offer/8157b8921bc94f42aafecf98868124b2/EGS_LEAPModEditor_BlueIsleStudios_IC1_400x191-45c6651599787fec916538967293d756"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-565qwd7twcgtvffpnqtws5umca4p2u",
+            "name": "Blue Isle Studios Inc."
+        },
+        "productSlug": "leap-mod-editor",
+        "urlSlug": "leap-mod-editor",
+        "url": null,
+        "tags": [
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "514e635bc020440c829f94df6daa3980",
+                "namespace": "8157b8921bc94f42aafecf98868124b2"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "KR,CN"
+            },
+            {
+                "key": "publisherName",
+                "value": "[]"
+            },
+            {
+                "key": "developerName",
+                "value": "[]"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "leap-mod-editor"
+            }
+        ],
+        "categories": [
+            {
+                "path": "engines"
+            },
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "leap-mod-editor",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": "Blue Isle Studios Inc",
+        "publisherDisplayName": "Blue Isle Studios Inc",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2022-06-01T15:00:00.000Z",
+        "pcReleaseDate": "2022-06-01T15:00:00.000Z",
+        "viewableDate": "2022-05-05T15:52:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "《Thunder Tier One》Modding Tool",
+        "id": "40845cf7649241d28e41a69941180e26",
+        "namespace": "e6a192f4403748fd9b0dd5af44c513ed",
+        "description": "《Thunder Tier One》Modding Tool 将允许玩家添加或修改任务、武器、AI 行为、装备以及其他一切游戏要素。",
+        "effectiveDate": "2022-02-23T14:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/offer/e6a192f4403748fd9b0dd5af44c513ed/EGS_ThunderTierOneModdingTool_KRAFTONInc_S2_1200x1600-6829d3068b2d9238b70a3a492ccc0155"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/offer/e6a192f4403748fd9b0dd5af44c513ed/EGS_ThunderTierOneModdingTool_KRAFTONInc_S2_1200x1600-6829d3068b2d9238b70a3a492ccc0155"
+            },
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/offer/e6a192f4403748fd9b0dd5af44c513ed/EGS_ThunderTierOneModdingTool_KRAFTONInc_S1_2560x1440-b7b09106412fe04133b1464722eecc72"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/e6a192f4403748fd9b0dd5af44c513ed/EGS_ThunderTierOneModdingTool_KRAFTONInc_S2_1200x1600-6829d3068b2d9238b70a3a492ccc0155"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/e6a192f4403748fd9b0dd5af44c513ed/EGS_ThunderTierOneModdingTool_KRAFTONInc_S1_2560x1440-b7b09106412fe04133b1464722eecc72"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/e6a192f4403748fd9b0dd5af44c513ed/EGS_ThunderTierOneModdingTool_KRAFTONInc_S2_1200x1600-6829d3068b2d9238b70a3a492ccc0155"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-s7enmfjrkkvdgtuzmbkeb5yq4rpwge",
+            "name": "KRAFTON, Inc."
+        },
+        "productSlug": "thunder-tier-one-modkit",
+        "urlSlug": "thunder-tier-one-modkit",
+        "url": null,
+        "tags": [
+            {
+                "id": "9559"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "1a3924a0b8514874b623896c1762eaa9",
+                "namespace": "e6a192f4403748fd9b0dd5af44c513ed"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "thunder-tier-one-modkit"
+            }
+        ],
+        "categories": [
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "thunder-tier-one-modkit",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": "KRAFTON, Inc.",
+        "publisherDisplayName": "KRAFTON, Inc.",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2022-02-23T14:00:00.000Z",
+        "pcReleaseDate": "2022-02-23T14:00:00.000Z",
+        "viewableDate": "2022-02-23T14:00:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Bus Simulator 21 - Modding Kit",
+        "id": "a89804c0a3be4493a4c0ee999c24f913",
+        "namespace": "2b09519576cb4276bfd8df52f5288e4a",
+        "description": "Enhance your bus driving experience by creating your own buses, maps , decals as well as exterior skins, interior designs and more with the \nofficial Bus Simulator 21 modding kit.\n\nWe can't wait to see all of your creations.\n",
+        "effectiveDate": "2021-12-09T17:30:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/offer/2b09519576cb4276bfd8df52f5288e4a/EGS_BusSimulator21ModdingKit_stillalivestudios_DigitalExtras_S2_1200x1600-8df144482ccf1ff323454bdc33d5d185"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/offer/2b09519576cb4276bfd8df52f5288e4a/EGS_BusSimulator21ModdingKit_stillalivestudios_DigitalExtras_S2_1200x1600-8df144482ccf1ff323454bdc33d5d185"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/offer/2b09519576cb4276bfd8df52f5288e4a/EGS_BusSimulator21ModdingKit_stillalivestudios_DigitalExtras_S2_1200x1600-8df144482ccf1ff323454bdc33d5d185"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/offer/2b09519576cb4276bfd8df52f5288e4a/EGS_BusSimulator21ModdingKit_stillalivestudios_DigitalExtras_S1_2560x1440-b2e87684bf8276e97886a9a9bddc4283"
+            },
+            {
+                "type": "ProductLogo",
+                "url": "https://cdn1.epicgames.com/offer/2b09519576cb4276bfd8df52f5288e4a/EGS_BusSimulator21ModdingKit_stillalivestudios_DigitalExtras_IC1_200x200-1ae93bf880cee2ec25c1c2c34831a289"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/offer/2b09519576cb4276bfd8df52f5288e4a/EGS_BusSimulator21ModdingKit_stillalivestudios_DigitalExtras_S1_2560x1440-b2e87684bf8276e97886a9a9bddc4283"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-rq9c97g8tttn6czdh2kd9vubqbunvf",
+            "name": "Astragon Entertainment GmbH"
+        },
+        "productSlug": "bus-simulator-21--modding-kit",
+        "urlSlug": "bus-simulator-21--modding-kit",
+        "url": null,
+        "tags": [
+            {
+                "id": "9559"
+            },
+            {
+                "id": "1243"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "1b1d6cd15044497ebae7432d29078b48",
+                "namespace": "2b09519576cb4276bfd8df52f5288e4a"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "publisherName",
+                "value": "Astragon Entertainment GmbH"
+            },
+            {
+                "key": "developerName",
+                "value": "Astragon Entertainment GmbH"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "bus-simulator-21--modding-kit"
+            }
+        ],
+        "categories": [
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "bus-simulator-21",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [
+            {
+                "pageSlug": "bus-simulator-21--modding-kit",
+                "pageType": "offer"
+            }
+        ],
+        "developerDisplayName": "Stillalive Studios",
+        "publisherDisplayName": "Astragon Entertainment GmbH",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2021-12-09T17:30:00.000Z",
+        "pcReleaseDate": "2021-12-09T17:30:00.000Z",
+        "viewableDate": "2021-12-09T17:30:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "OHDcore Mod Kit",
+        "id": "3a3bed5063b4485480956d82e83c739d",
+        "namespace": "3da1cf80708c4f079d239cd6a63fd22f",
+        "description": "OHDcore is built on top of Unreal Engine 4. Utilize the tools and workflow your team is already familiar with in Unreal Engine, enhanced with the features of OHDcore. Don't reinvent the wheel, use OHDcore to speed up development of your next Unreal project.",
+        "effectiveDate": "2021-08-20T16:29:23.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_OHDcore_DrakelingLabs_S2_1200x1600-9f560dbf7be20b01c0db4ffce55572d0"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_OHDcore_DrakelingLabs_S2_1200x1600-9f560dbf7be20b01c0db4ffce55572d0"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_OHDcore_DrakelingLabs_S2_1200x1600-9f560dbf7be20b01c0db4ffce55572d0"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_OHDcore_DrakelingLabs_S1_2560x1440-70c76f13c696e53c03c1378d751950fd"
+            },
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_OHDcore_DrakelingLabs_S1_2560x1440-70c76f13c696e53c03c1378d751950fd"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_OHDcore_DrakelingLabs_S2_1200x1600-9f560dbf7be20b01c0db4ffce55572d0"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-lekvmk2prmkkm6vnm4maxwm7y4k3p4",
+            "name": "Bluedrake42 Limited Company"
+        },
+        "productSlug": "ohdcore-mod-kit",
+        "urlSlug": "ohdcore-mod-kit",
+        "url": null,
+        "tags": [
+            {
+                "id": "1185"
+            },
+            {
+                "id": "1203"
+            },
+            {
+                "id": "1370"
+            },
+            {
+                "id": "1243"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "0ebd2f6c6e1744e2b90c66948bc2a874",
+                "namespace": "3da1cf80708c4f079d239cd6a63fd22f"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "[]"
+            },
+            {
+                "key": "publisherName",
+                "value": "Drakeling Labs"
+            },
+            {
+                "key": "developerName",
+                "value": "Drakeling Labs"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "ohdcore-mod-kit"
+            }
+        ],
+        "categories": [
+            {
+                "path": "engines"
+            },
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "ohdcore-mod-kit",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2021-08-20T16:33:38.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": null,
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "《DCL – The Game》赛道编辑器（Track Editor）",
+        "id": "71f7b3d1755744e5b85d73b9b32e5831",
+        "namespace": "ed85e819ef2f48588bdfad2fd270b70e",
+        "description": "《DCL – The Game》赛道编辑器（Track Editor）- 使用此工具，任何人都可以创建赛道并发布至创意工坊，以供《DCL – The Game》的所有玩家进行比赛.",
+        "effectiveDate": "2021-02-22T16:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/ed85e819ef2f48588bdfad2fd270b70e/offer/EGS_DCLtheGameTrackEditor_DRONECHAMPIONSAG_S1-2560x1440-ece2a74b41ff4dbec04686373988d909.jpg"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/ed85e819ef2f48588bdfad2fd270b70e/offer/EGS_DCLtheGameTrackEditor_DRONECHAMPIONSAG_S2-1200x1600-45d3307e370bb3124f2940a61766050a.jpg"
+            },
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/ed85e819ef2f48588bdfad2fd270b70e/offer/EGS_DCLtheGameTrackEditor_DRONECHAMPIONSAG_S1-2560x1440-ece2a74b41ff4dbec04686373988d909.jpg"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/ed85e819ef2f48588bdfad2fd270b70e/offer/EGS_DCLtheGameTrackEditor_DRONECHAMPIONSAG_S2-1200x1600-45d3307e370bb3124f2940a61766050a.jpg"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/ed85e819ef2f48588bdfad2fd270b70e/offer/EGS_DCLtheGameTrackEditor_DRONECHAMPIONSAG_S2-1200x1600-45d3307e370bb3124f2940a61766050a.jpg"
+            },
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/ed85e819ef2f48588bdfad2fd270b70e/offer/EGS_DCLtheGameTrackEditor_DRONECHAMPIONSAG_S2-1200x1600-45d3307e370bb3124f2940a61766050a.jpg"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-w9ua9zujmmz54xzc4qjsxj6838xyhn",
+            "name": "Drone Champions AG"
+        },
+        "productSlug": "dcl-the-game/home",
+        "urlSlug": "dclthegame",
+        "url": null,
+        "tags": [
+            {
+                "id": "1216"
+            },
+            {
+                "id": "1203"
+            },
+            {
+                "id": "9559"
+            },
+            {
+                "id": "1370"
+            },
+            {
+                "id": "1243"
+            },
+            {
+                "id": "9547"
+            },
+            {
+                "id": "1212"
+            }
+        ],
+        "items": [
+            {
+                "id": "1fe84bc683314a498545168ff3cafcd5",
+                "namespace": "ed85e819ef2f48588bdfad2fd270b70e"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "[]"
+            },
+            {
+                "key": "developerName",
+                "value": "DRONECHAMPIONS"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "dcl-the-game/home"
+            }
+        ],
+        "categories": [
+            {
+                "path": "engines"
+            },
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "dcl-the-game",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2021-02-24T16:00:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": "2021-02-24T16:00:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Post Scriptum Modding SDK",
+        "id": "b164a6b5b5d14b95aa212db202f26852",
+        "namespace": "6fe830287e1244829c9bcdb4cef9fad5",
+        "description": "《Post Scriptum》是一款第一人称射击模拟游戏，提供拟真的第二次世界大战战斗体验。本游戏专注于历史还原、大规模战斗和险恶的战场，要求玩家有极强的凝聚力、交流能力和团队配合。",
+        "effectiveDate": "2020-12-03T16:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/6fe830287e1244829c9bcdb4cef9fad5/offer/egs-postscriptumisafirstpersonsimulationshooter-periscopegames-s1-2560x1440-2560x1440-dfcda8bcb16cb7bae0287782c08dc37d.jpg"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/6fe830287e1244829c9bcdb4cef9fad5/offer/egs-postscriptumisafirstpersonsimulationshooter-periscopegames-s2-1200x1600-1200x1600-52dbfa5b28b9badd7b767dc2677cebd8.jpg"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/6fe830287e1244829c9bcdb4cef9fad5/offer/egs-postscriptumisafirstpersonsimulationshooter-periscopegames-s1-2560x1440-2560x1440-dfcda8bcb16cb7bae0287782c08dc37d.jpg"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/6fe830287e1244829c9bcdb4cef9fad5/offer/egs-postscriptumisafirstpersonsimulationshooter-periscopegames-s2-1200x1600-1200x1600-52dbfa5b28b9badd7b767dc2677cebd8.jpg"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/6fe830287e1244829c9bcdb4cef9fad5/offer/egs-postscriptumisafirstpersonsimulationshooter-periscopegames-s2-1200x1600-1200x1600-52dbfa5b28b9badd7b767dc2677cebd8.jpg"
+            },
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/6fe830287e1244829c9bcdb4cef9fad5/offer/egs-postscriptumisafirstpersonsimulationshooter-periscopegames-s2-1200x1600-1200x1600-52dbfa5b28b9badd7b767dc2677cebd8.jpg"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-ff2s24rywqcchllq89bl4uy957altp",
+            "name": "Offworld Industries"
+        },
+        "productSlug": "post-scriptum",
+        "urlSlug": "post-scriptum",
+        "url": null,
+        "tags": [
+            {
+                "id": "1393"
+            },
+            {
+                "id": "1203"
+            },
+            {
+                "id": "9559"
+            },
+            {
+                "id": "1210"
+            },
+            {
+                "id": "1370"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "47b723ec923144a8800724d5109fbc38",
+                "namespace": "6fe830287e1244829c9bcdb4cef9fad5"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "[]"
+            },
+            {
+                "key": "developerName",
+                "value": "Periscope Games"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "post-scriptum"
+            }
+        ],
+        "categories": [
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "post-scriptum",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2020-12-03T16:00:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": "2020-12-03T15:59:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "A Total War Saga: TROY – ASSEMBLY KIT",
+        "id": "aa05ffff3f9a466e95f76fcb5af9420b",
+        "namespace": "53310576ce1d4446b20dbbdac4f09f2d",
+        "description": "Welcome to the TROY Assembly Kit. Refashion the Trojan War with these powerful new tools that expand the Total War Assembly Kit to the Epic Store.",
+        "effectiveDate": "2020-10-29T15:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/53310576ce1d4446b20dbbdac4f09f2d/offer/EGS_ATotalWarSagaTROYAssemblyKit_CreativeAssembly_DLC_S1-2560x1440-03edcc1552e06a393173fa4e6d53b434.jpg"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/53310576ce1d4446b20dbbdac4f09f2d/offer/ASSEMBLY KIT 1200x1600-1200x1600-9d0ac3c4d0e3ab0fb9141e3e519ed402.jpg"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/53310576ce1d4446b20dbbdac4f09f2d/offer/ASSEMBLY KIT 1200x1600-1200x1600-9d0ac3c4d0e3ab0fb9141e3e519ed402.jpg"
+            },
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/53310576ce1d4446b20dbbdac4f09f2d/offer/ASSEMBLY KIT 1200x1600-1200x1600-9d0ac3c4d0e3ab0fb9141e3e519ed402.jpg"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/53310576ce1d4446b20dbbdac4f09f2d/offer/ASSEMBLY KIT 1200x1600-1200x1600-9d0ac3c4d0e3ab0fb9141e3e519ed402.jpg"
+            },
+            {
+                "type": "DieselGameBox",
+                "url": "https://cdn1.epicgames.com/53310576ce1d4446b20dbbdac4f09f2d/offer/EGS_ATotalWarSagaTROYAssemblyKit_CreativeAssembly_DLC_S1-2560x1440-03edcc1552e06a393173fa4e6d53b434.jpg"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-q3zwbk8kbbbgar9ql3x7d43rjj8bjl",
+            "name": "SEGA of Europe"
+        },
+        "productSlug": "a-total-war-saga-troy/assembly-kit",
+        "urlSlug": "troy-assembly-kit",
+        "url": null,
+        "tags": [
+            {
+                "id": "1393"
+            },
+            {
+                "id": "1203"
+            },
+            {
+                "id": "9559"
+            },
+            {
+                "id": "1370"
+            },
+            {
+                "id": "1115"
+            }
+        ],
+        "items": [
+            {
+                "id": "f4cbc4a8c83940babaa3093c256069ef",
+                "namespace": "53310576ce1d4446b20dbbdac4f09f2d"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "[]"
+            },
+            {
+                "key": "publisherName",
+                "value": "SEGA"
+            },
+            {
+                "key": "developerName",
+                "value": "CREATIVE ASSEMBLY"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "a-total-war-saga-troy/assembly-kit"
+            }
+        ],
+        "categories": [
+            {
+                "path": "addons"
+            },
+            {
+                "path": "engines"
+            },
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "a-total-war-saga-troy",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2020-10-29T15:00:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": null,
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Insurgency: Sandstorm - Mod Tools & Editor",
+        "id": "3040b13256b4463dae6358738d62d5e5",
+        "namespace": "94cec4802e954a6c9579e29e8b817f3a",
+        "description": "Here you can download the Mod Tools and Unreal Editor for Insurgency: Sandstorm.",
+        "effectiveDate": "2020-03-17T00:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/epic/offer/EGS_InsurgencySandstormModToolsEditor_NewWorldInteractive_S2-860x1148-72b3fc5e2d58db0aea6af6f4dcee9e8f.jpg"
+            },
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/epic/offer/EGS_InsurgencySandstormModToolsEditor_NewWorldInteractive_S1-2560x1440-5e3c175f6c598dd5f95172fe14ba01ae.jpg"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/epic/offer/EGS_InsurgencySandstormModToolsEditor_NewWorldInteractive_S2-860x1148-72b3fc5e2d58db0aea6af6f4dcee9e8f.jpg"
+            },
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/94cec4802e954a6c9579e29e8b817f3a/offer/modTools-EGS-3x4-960x1280-a5b10cf302f1852db43fdbfa5c58e992.jpg"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/94cec4802e954a6c9579e29e8b817f3a/offer/modTools-960x1280-a5b10cf302f1852db43fdbfa5c58e992.jpg"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/94cec4802e954a6c9579e29e8b817f3a/offer/EGS_InsurgencySandstormModToolsEditor_NewWorldInteractive_S1-2560x1440-5e3c175f6c598dd5f95172fe14ba01ae.jpg"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-wt4zxeetmq6jem7qp4pkssr46aenj5",
+            "name": "Focus Home"
+        },
+        "productSlug": "insurgency-sandstorm--mod-tools",
+        "urlSlug": "bassgeneralaudience",
+        "url": null,
+        "tags": [
+            {
+                "id": "9559"
+            }
+        ],
+        "items": [
+            {
+                "id": "04050eea916843afa90da1dcffbb7899",
+                "namespace": "94cec4802e954a6c9579e29e8b817f3a"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "insurgency-sandstorm--mod-tools"
+            }
+        ],
+        "categories": [
+            {
+                "path": "engines"
+            },
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "insurgency-sandstorm",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [
+            {
+                "pageSlug": "insurgency-sandstorm--mod-tools",
+                "pageType": "offer"
+            }
+        ],
+        "developerDisplayName": "New World Interactive",
+        "publisherDisplayName": "Focus Entertainment",
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2020-03-17T17:00:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": null,
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Mars 2030 Editor",
+        "id": "fd7b726f8d81401ba83fda5226407a17",
+        "namespace": "mars2030",
+        "description": "The Mars 2030 Editor is an open source version of Mars 2030 that contains all of the content and systems found in the VR project to develop your own space concepts using real NASA data! Build your own space habitat designs, create your own robotic NPC companion using NASA’s Va...",
+        "effectiveDate": "2018-02-08T11:28:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "DieselGameBoxLogo",
+                "url": "https://cdn1.epicgames.com/epic/offer/Mars_White-783x105-e7c151a7b1e06d0181a2c18f78965ed5.png"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/mars2030/offer/mars2030_bg-430x250-261a916534206de2029fc4577384447a-430x250-261a916534206de2029fc4577384447a.jpg"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-v8ctg8jgjafjpj27mwqxqzcmgmkzrf",
+            "name": "Fusion Media Group"
+        },
+        "productSlug": "mars-2030",
+        "urlSlug": "mars-2030-editor",
+        "url": null,
+        "tags": [
+            {
+                "id": "9559"
+            }
+        ],
+        "items": [
+            {
+                "id": "6b73eb7d981d45d6825c794a78985f72",
+                "namespace": "mars2030"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "CN"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "mars-2030"
+            }
+        ],
+        "categories": [
+            {
+                "path": "engines"
+            },
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "mars-2030",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2020-02-08T12:00:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": null,
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Days of War Map Editor",
+        "id": "bc5f7e2b085044578a191eb1e2d7f9be",
+        "namespace": "dcaca38045a049b2b50fba8a4dac4407",
+        "description": "Create custom maps for Days of War. Days of War is an online FPS that re-imagines the team-based, close quarters, nonstop action of classic World War II multiplayer shooters.",
+        "effectiveDate": "2020-01-30T18:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/undefined/offer/EGS_DrivenArts_DaysofWarMapEditor_S2-860x1148-6bc859e38a027d56efba949d44e53485.jpg"
+            },
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/undefined/offer/EGS_DrivenArts_DaysofWarMapEditor_S3-1360x766-e9727b383efa18484077e30d0ae29538.jpg"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/undefined/offer/EGS_DrivenArts_DaysofWarMapEditor_S2-860x1148-6bc859e38a027d56efba949d44e53485.jpg"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/dcaca38045a049b2b50fba8a4dac4407/offer/EGS_DrivenArts_DaysofWarMapEditor_S3-1360x766-e9727b383efa18484077e30d0ae29538.jpg"
+            },
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/dcaca38045a049b2b50fba8a4dac4407/offer/EGS_DrivenArts_DaysofWarMapEditor_S4-510x680-d0ee7211aad2a031e6226aa33eba7872.jpg"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/undefined/offer/EGS_DrivenArts_DaysofWarMapEditor_S3-1360x766-e9727b383efa18484077e30d0ae29538.jpg"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-bze36gesds8y2gh28jtdheg24v422w",
+            "name": "Driven Arts"
+        },
+        "productSlug": "days-of-war/home",
+        "urlSlug": "daysofwareditor",
+        "url": null,
+        "tags": [
+            {
+                "id": "9559"
+            },
+            {
+                "id": "9547"
+            }
+        ],
+        "items": [
+            {
+                "id": "4d2d09db4b7e4ff08209bb1f7793fb17",
+                "namespace": "dcaca38045a049b2b50fba8a4dac4407"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "[]"
+            },
+            {
+                "key": "developerName",
+                "value": "Driven Arts"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "days-of-war/home"
+            }
+        ],
+        "categories": [
+            {
+                "path": "engines"
+            },
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "days-of-war",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2020-01-30T18:00:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": null,
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Hello Neighbor Mod Kit",
+        "id": "b1e57a8fa2074f669abfbb294fd8e59e",
+        "namespace": "helloneighbor",
+        "description": "Hello Mod Kit",
+        "effectiveDate": "2017-09-22T16:55:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "DieselGameBoxLogo",
+                "url": "https://cdn1.epicgames.com/epic/offer/Hello_Neighbor_White-1160x687-604322be0404b78cc0f0d590b4009ce6.png"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/epic/offer/HelloN_tall-852x960-89d276410d4b9b4d216059c6d1a95055.png"
+            },
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/epic/offer/HelloN_wide-960x540-f5061daa1792e8c6288e1ed177a32c7d.png"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/epic/offer/HelloN_tall-852x960-89d276410d4b9b4d216059c6d1a95055.png"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/helloneighbor/offer/Medium Size 1288 x 1450-1288x1450-d77019177a5159c4197466bc298eb810.png"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/epic/offer/HelloN_wide-960x540-f5061daa1792e8c6288e1ed177a32c7d.png"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-t682p59y2u8tr9bxcm6cmw9w7mmz5t",
+            "name": "tinyBuild Games"
+        },
+        "productSlug": "hello-neighbor/modkit",
+        "urlSlug": "hello-mod-kit",
+        "url": null,
+        "tags": [
+            {
+                "id": "9559"
+            }
+        ],
+        "items": [
+            {
+                "id": "098f795d4a9f4b108ca211f6b3e90a01",
+                "namespace": "helloneighbor"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "publisherName",
+                "value": "tinyBuild"
+            },
+            {
+                "key": "developerName",
+                "value": "Dynamic Pixels"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "hello-neighbor/modkit"
+            }
+        ],
+        "categories": [
+            {
+                "path": "engines"
+            },
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "hello-neighbor",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [
+            {
+                "pageSlug": "hello-neighbor--modkit",
+                "pageType": "offer"
+            }
+        ],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2019-12-18T21:49:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": null,
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Mechwarrior 5 Modding Toolkit",
+        "id": "616d8e1ff26b4a65b14794e612da00c4",
+        "namespace": "b9def67e597b4be7a16146146a044d02",
+        "description": "佣兵们，欢迎来到 Inner Sphere!《MechWarrior 5:Mercenaries》模组编辑器可释放你的想象力和创意，充分发挥虚幻引擎 4 和《MechWarrior 5:Mercenaries》开发项目的潜力，让你打造出属于自己的精彩模组！",
+        "effectiveDate": "2019-12-09T11:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/b9def67e597b4be7a16146146a044d02/offer/Editor-Library-Photo-2560x1440-e3debd3eb6b2af0a0ca82abbb8b4d21d.jpg"
+            },
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/b9def67e597b4be7a16146146a044d02/offer/Editor-Library-Photo-half-1280x1440-d4defd0be40ba0d77de9c9ee3e0f168d.jpg"
+            },
+            {
+                "type": "DieselGameBox",
+                "url": "https://cdn1.epicgames.com/b9def67e597b4be7a16146146a044d02/offer/Editor-Library-Photo-half-1280x1440-d4defd0be40ba0d77de9c9ee3e0f168d.jpg"
+            },
+            {
+                "type": "DieselGameBoxWide",
+                "url": "https://cdn1.epicgames.com/b9def67e597b4be7a16146146a044d02/offer/Editor-Library-Photo-2560x1440-e3debd3eb6b2af0a0ca82abbb8b4d21d.jpg"
+            },
+            {
+                "type": "DieselGameBoxLogo",
+                "url": "https://cdn1.epicgames.com/b9def67e597b4be7a16146146a044d02/offer/Mod-editor-icon-200x200-18ddd1e690c834a781ef4bfe09b92450.png"
+            },
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/b9def67e597b4be7a16146146a044d02/offer/Editor-Library-Photo-2560x1440-e3debd3eb6b2af0a0ca82abbb8b4d21d.jpg"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/b9def67e597b4be7a16146146a044d02/offer/Editor-Library-Photo-half-1280x1440-d4defd0be40ba0d77de9c9ee3e0f168d.jpg"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/b9def67e597b4be7a16146146a044d02/offer/Editor-Library-Photo-half-1280x1440-d4defd0be40ba0d77de9c9ee3e0f168d-1280x1440-d4defd0be40ba0d77de9c9ee3e0f168d.jpg"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-muad9pj32k67stc4ycpgpplwq84sgq",
+            "name": "Piranha Games"
+        },
+        "productSlug": null,
+        "urlSlug": "mechwarrior-5--mod-editor",
+        "url": null,
+        "tags": [
+            {
+                "id": "1216"
+            },
+            {
+                "id": "1393"
+            },
+            {
+                "id": "1203"
+            },
+            {
+                "id": "1210"
+            },
+            {
+                "id": "1370"
+            },
+            {
+                "id": "9547"
+            },
+            {
+                "id": "1279"
+            }
+        ],
+        "items": [
+            {
+                "id": "e6b52375cd6b460d9249cc1a8a3645b3",
+                "namespace": "b9def67e597b4be7a16146146a044d02"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "{}"
+            },
+            {
+                "key": "developerName",
+                "value": "Piranha Games"
+            }
+        ],
+        "categories": [
+            {
+                "path": "addons"
+            },
+            {
+                "path": "games"
+            },
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "mechwarrior-5",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [
+            {
+                "pageSlug": "mechwarrior-5--mod-editor",
+                "pageType": "addon--cms-hybrid"
+            }
+        ],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2019-12-10T11:00:00.000Z",
+        "pcReleaseDate": "2019-12-10T11:00:00.000Z",
+        "viewableDate": null,
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Diesel Brothers: Truck Building Simulator Editor",
+        "id": "1a0876c3c1994c50ae6e3231999a0dcf",
+        "namespace": "72dda1cee6e040c1bbce452bd501e0a7",
+        "description": "Tuning trucks is all about eye-catching designs.   When you're in the need for a particular part, but just can't find it anywhere in the shop - make it yourself! Impress your customers and fan followers with one of a kind rims, astonishing exhaust tips, and other unique parts.",
+        "effectiveDate": "2019-05-10T08:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "DieselGameBoxLogo",
+                "url": "https://cdn1.epicgames.com/undefined/offer/LOGO_DB_TBS_white-3617x949-1e2111c089563b39f1b5aec008b10e9f.png"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/72dda1cee6e040c1bbce452bd501e0a7/offer/DieselBrothers-340x440-d52495962793710895c888fcefe389c1.jpg"
+            },
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/72dda1cee6e040c1bbce452bd501e0a7/offer/DieselBrothers-340x440-d52495962793710895c888fcefe389c1.jpg"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/72dda1cee6e040c1bbce452bd501e0a7/offer/epic_store_a-704x445-937ec92abb8d34982453db808e2fd061-704x445-937ec92abb8d34982453db808e2fd061.png"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-gvzm3vdwtv2avjdlnlv8rb5s94btuj",
+            "name": "Code Horizon"
+        },
+        "productSlug": "diesel-brothers-truck-building-simulator-editor/home",
+        "urlSlug": "cajungeneralaudience",
+        "url": null,
+        "tags": [
+            {
+                "id": "9559"
+            }
+        ],
+        "items": [
+            {
+                "id": "69ebd7adcb15435ca2c20998032fd9c3",
+                "namespace": "72dda1cee6e040c1bbce452bd501e0a7"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "CN"
+            },
+            {
+                "key": "developerName",
+                "value": "Code Horizon"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "diesel-brothers-truck-building-simulator-editor/home"
+            }
+        ],
+        "categories": [
+            {
+                "path": "engines"
+            },
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "diesel-brothers-truck-building-simulator-editor",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2019-05-10T08:00:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": null,
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Helium Rain",
+        "id": "2554dc73dbc746f38bb930903821441b",
+        "namespace": "sunflower",
+        "description": "建立自己的舰队，在太空中进行交易、探索和征服",
+        "effectiveDate": "2019-03-01T14:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "DieselGameBoxLogo",
+                "url": "https://cdn1.epicgames.com/epic/offer/HeliumRain_White-1080x226-e9a72da9f5700a9bfe621e163ba12ea1.png"
+            },
+            {
+                "type": "CodeRedemption_340x440",
+                "url": "https://cdn1.epicgames.com/sunflower/offer/HeliumRain_CodeRedemption-330x440-e502247aa1db60f3cac6e3c0bead3fe0.png"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/sunflower/offer/HeliumRain_CodeRedemption-330x440-e502247aa1db60f3cac6e3c0bead3fe0.png"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/sunflower/offer/Helium_Rain_Promo-960x540-4ee3b83196f8347afc8748007ab54d26-960x540-4ee3b83196f8347afc8748007ab54d26.jpg"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-2m8un9e3wxkbydsdc7az6twyzpz3zc",
+            "name": "Deimos Games"
+        },
+        "productSlug": "helium-rain/home",
+        "urlSlug": "sunflowergeneralaudience",
+        "url": null,
+        "tags": [
+            {
+                "id": "9559"
+            }
+        ],
+        "items": [
+            {
+                "id": "e00ac59f1e414bda8b634cb832acda03",
+                "namespace": "sunflower"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "developerName",
+                "value": "Deimos Games"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "helium-rain/home"
+            }
+        ],
+        "categories": [
+            {
+                "path": "engines"
+            },
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "helium-rain",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2019-03-01T14:00:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": null,
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "ATLAS Mod Kit",
+        "id": "49841c56d62b4490a394a7889651e948",
+        "namespace": "96ccba8fe8e649dfa6f96cee11e625e1",
+        "description": "Create your own ATLAS Mods to share with your friends — and players worldwide!",
+        "effectiveDate": "2019-01-02T00:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "DieselStoreFrontWide",
+                "url": "https://cdn1.epicgames.com/undefined/offer/S1 (2) (1)-2560x1440-81cac00265cf28ee53cf2d9b192f0293.jpg"
+            },
+            {
+                "type": "DieselStoreFrontTall",
+                "url": "https://cdn1.epicgames.com/undefined/offer/S2 (1)-2560x1440-7b2ea3e2f1111a05d1b31bbe8505d3dc.jpg"
+            },
+            {
+                "type": "DieselGameBoxLogo",
+                "url": "https://cdn1.epicgames.com/epic/offer/IC1-512x512-c9fa29d8cb6b6f781f4e62c9a59af163.png"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/undefined/offer/S2 (1)-2560x1440-7b2ea3e2f1111a05d1b31bbe8505d3dc.jpg"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/96ccba8fe8e649dfa6f96cee11e625e1/offer/Atlas_Promo-2560x1440-81cac00265cf28ee53cf2d9b192f0293-2560x1440-81cac00265cf28ee53cf2d9b192f0293.jpg"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/undefined/offer/S1 (2) (1)-2560x1440-81cac00265cf28ee53cf2d9b192f0293.jpg"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-usvfbmlqdt678vrp36qvm2d5cz2cpr",
+            "name": "Studio Wildcard"
+        },
+        "productSlug": "atlas-mod-kit",
+        "urlSlug": "atlas-mod-kit",
+        "url": null,
+        "tags": [
+            {
+                "id": "9559"
+            }
+        ],
+        "items": [
+            {
+                "id": "35cc51553a9d406798e02d063c18ea43",
+                "namespace": "96ccba8fe8e649dfa6f96cee11e625e1"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.blacklist",
+                "value": "{}"
+            },
+            {
+                "key": "developerName",
+                "value": "Grapeshot Games"
+            },
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "atlas-mod-kit"
+            }
+        ],
+        "categories": [
+            {
+                "path": "engines"
+            },
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "atlas-mod-kit",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2018-01-10T15:21:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": null,
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Conan Exiles Modkit",
+        "id": "1bf1c664fc664ac88733e46da2297f8e",
+        "namespace": "conanexiles",
+        "description": "《Conan Exiles》是一款开放世界的生存游戏，以《Conan the Barbarian》中的荒野之地为背景。在荒蛮世界中求生，建造家园和王国，在史诗般的战争中击溃你的敌人。",
+        "effectiveDate": "2017-01-17T11:22:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/conanexiles/offer/EGS_ConanExiles_Funcom_S6-1200x1600-5454011d5e70ab9d4a0ebe27c5054a85.jpg"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/conanexiles/offer/EGS_ConanExiles_Funcom_S6-1200x1600-5454011d5e70ab9d4a0ebe27c5054a85.jpg"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/conanexiles/offer/EGS_ConanExiles_Funcom_S5-1920x1080-80181a084cf786f9aa8e81190f8725be.jpg"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-fyyejcaw8f65b74sfwudhays6t3cuz",
+            "name": "Funcom Oslo AS"
+        },
+        "productSlug": "conan-exiles/modkit",
+        "urlSlug": "conan-exiles-unreal-editor",
+        "url": null,
+        "tags": [
+            {
+                "id": "9559"
+            }
+        ],
+        "items": [
+            {
+                "id": "4b24951512584889ad1224b8efb49bb1",
+                "namespace": "conanexiles"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "conan-exiles/modkit"
+            }
+        ],
+        "categories": [
+            {
+                "path": "engines"
+            },
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "conan-exiles",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [
+            {
+                "pageSlug": "conan-exiles--modkit",
+                "pageType": "offer"
+            }
+        ],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2017-01-17T11:22:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": "2017-01-17T10:42:00.000Z",
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "VR Funhouse",
+        "id": "f00a248b062a4adca9360c2c7d679237",
+        "namespace": "vrfunhouse",
+        "description": "Step right up to VR Funhouse mods!  Download the VR Funhouse Mod Kit, create your own mods, and share them with the world.  We can’t wait to see the amazing experiences you’ll create!",
+        "effectiveDate": "2016-08-31T11:38:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "DieselGameBoxLogo",
+                "url": "https://cdn1.epicgames.com/epic/offer/VRFun_White_updated-1524x806-c84231b103834f4fffba22943d1bd92c.png"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/vrfunhouse/offer/vrfunhouse_bg-430x250-430x250-57255897027311603ba44be29809e86b.jpg"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-aa83a0a9bc45e98c80c1b1c9d92e9e",
+            "name": "Epic Games"
+        },
+        "productSlug": "vr-funhouse",
+        "urlSlug": "vr-funhouse-editor-01",
+        "url": null,
+        "tags": [
+            {
+                "id": "9559"
+            }
+        ],
+        "items": [
+            {
+                "id": "3be791725c2f4716bcaecb0197549993",
+                "namespace": "vrfunhouse"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "vr-funhouse"
+            }
+        ],
+        "categories": [
+            {
+                "path": "engines"
+            },
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "vr-funhouse",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2016-08-31T11:38:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": null,
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "Squad Editor",
+        "id": "6bddda6e5d6c4fd8abcdd664b0f30f61",
+        "namespace": "squad",
+        "description": "COORDINATE · COMMUNICATE · CONQUER",
+        "effectiveDate": "2016-06-09T00:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "DieselGameBoxLogo",
+                "url": "https://cdn1.epicgames.com/epic/offer/Squad_White-1000x442-82ca7a87a9383a2953197e880242304b.png"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/squad/offer/squad_bg-430x250-3663a5db21502e545abd227b41c741e9-430x250-3663a5db21502e545abd227b41c741e9.jpg"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-ff2s24rywqcchllq89bl4uy957altp",
+            "name": "Offworld Industries"
+        },
+        "productSlug": "squad",
+        "urlSlug": "squad-editor-general-audience",
+        "url": null,
+        "tags": [
+            {
+                "id": "9559"
+            }
+        ],
+        "items": [
+            {
+                "id": "2bcae7bd648242b4a6e50040dc7e30ed",
+                "namespace": "squad"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "squad"
+            }
+        ],
+        "categories": [
+            {
+                "path": "engines"
+            },
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "squad",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2016-06-09T00:00:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": null,
+        "approximateReleasePlan": null
+    },
+    {
+        "title": "ARK Modkit",
+        "id": "6a0dadfed285488bafec6f01f30f67d0",
+        "namespace": "ark",
+        "description": "打造你自己的《ARK: Survival Evolved》模组，并与其他幸存者共享！ARK Dev Kit 是 Unreal Engine 4 Editor 的精简版，可简化《ARK: Survival Evolved》的创建和分享流程。",
+        "effectiveDate": "2015-07-20T00:00:00.000Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "DieselGameBoxLogo",
+                "url": "https://cdn1.epicgames.com/epic/offer/Ark__White-581x484-a285208638c26d9673c11c8ed7eb4728.png"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/ark/offer/Diesel_product_ark_arkhero-1500x850-4634c254fae9fecf995b36b74c1e5aa52d343ccd-1500x850-eca7055ccc0b8f1dbd245bc437729086.png"
+            }
+        ],
+        "currentPrice": 0,
+        "seller": {
+            "id": "o-usvfbmlqdt678vrp36qvm2d5cz2cpr",
+            "name": "Studio Wildcard"
+        },
+        "productSlug": "ark",
+        "urlSlug": "ark-editor",
+        "url": null,
+        "tags": [
+            {
+                "id": "9559"
+            }
+        ],
+        "items": [
+            {
+                "id": "8077d89481064a9097dd4b8fe7bca090",
+                "namespace": "ark"
+            }
+        ],
+        "customAttributes": [
+            {
+                "key": "com.epicgames.app.productSlug",
+                "value": "ark"
+            }
+        ],
+        "categories": [
+            {
+                "path": "engines"
+            },
+            {
+                "path": "editors"
+            },
+            {
+                "path": "applications"
+            }
+        ],
+        "catalogNs": {
+            "mappings": [
+                {
+                    "pageSlug": "ark",
+                    "pageType": "productHome"
+                }
+            ]
+        },
+        "offerMappings": [
+            {
+                "pageSlug": "ark--modkit",
+                "pageType": "offer"
+            }
+        ],
+        "developerDisplayName": null,
+        "publisherDisplayName": null,
+        "price": {
+            "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {
+                    "decimals": 2
+                },
+                "fmtPrice": {
+                    "originalPrice": "0",
+                    "discountPrice": "0",
+                    "intermediatePrice": "0"
+                }
+            },
+            "lineOffers": [
+                {
+                    "appliedRules": []
+                }
+            ]
+        },
+        "prePurchase": null,
+        "releaseDate": "2015-07-20T00:00:00.000Z",
+        "pcReleaseDate": null,
+        "viewableDate": "2015-07-20T00:00:00.000Z",
         "approximateReleasePlan": null
     }
 ]

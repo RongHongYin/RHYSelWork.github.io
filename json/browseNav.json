@@ -7,13 +7,13 @@
                         "groupName":"类别",
                         "name":"编辑器",
                         "htmlId":"type",
-                        "id":"editors"
+                        "id":"engines"
                     },
                     {
                         "groupName":"类别",
                         "name":"软件",
                         "htmlId":"type",
-                        "id":"applications"
+                        "id":"software"
                     },
                     {
                         "groupName":"类别",
@@ -25,7 +25,7 @@
                         "groupName":"类别",
                         "name":"游戏版本",
                         "htmlId":"type",
-                        "id":"games/edition/base"
+                        "id":"games/edition/baseAndgames/edition"
                     },
                     {
                         "groupName":"类别",

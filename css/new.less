@@ -26,15 +26,24 @@ body {
                         width: 693px;
                         height: 390px;
 
-                        &::before {
-                            border-radius: 4px;
+
+
+                        a {
+                            display: block;
+
+                            &::before {
+                                width: 693px;
+                                height: 390px;
+                                border-radius: 4px;
+                            }
+
+                            img {
+                                width: 693px;
+                                height: 390px;
+                                border-radius: 4px;
+                            }
                         }
 
-                        img {
-                            width: 693px;
-                            height: 390px;
-                            border-radius: 4px;
-                        }
                     }
 
                     .des {
@@ -86,13 +95,20 @@ body {
                 display: flex;
 
                 .imgBox {
-                    width: 200px;
-                    height: 112px;
+
                     margin-right: 20px;
 
-                    &::before {
-                        border-radius: 4px;
 
+
+                    a {
+                        display: block;
+
+                        &::before {
+                            width: 200px;
+                            height: 112px;
+                            border-radius: 4px;
+
+                        }
                     }
 
                     img {
@@ -101,6 +117,7 @@ body {
                         border-radius: 4px;
 
                     }
+
                 }
 
                 .des {
@@ -154,14 +171,24 @@ body {
                 height: 22px;
                 color: #f5f5f599;
 
-                &:first-child {
+
+                &.hide {
                     display: none;
                 }
 
-
-                &:hover {
+                &:hover,
+                &.active {
                     font-weight: 700;
                     color: rgb(245, 245, 245);
+                    cursor: pointer;
+                }
+            }
+
+            .ellipsis {
+                &:hover {
+                    font-weight: normal;
+                    cursor: context-menu;
+                    color: #f5f5f599;
                 }
             }
         }
