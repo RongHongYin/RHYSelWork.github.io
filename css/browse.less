@@ -39,6 +39,9 @@ body {
 
             .mainWrap {
                 display: flex;
+                position: relative;
+                transition: left 400ms ease;
+                left: 0;
 
                 .items {
                     width: 1427px;
@@ -219,12 +222,31 @@ body {
             .gameListBox {
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                // justify-content: space-between;
+
+                .noResTitle {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 50px;
+                    font-weight: 500;
+                    display: block;
+                    color: #f5f5f5;
+                }
+                .noResText{
+
+                    margin-top: 8px;
+                    width: 100%;
+                    color: #f5f5f599;
+                    text-align: center;
+                    font-size: 16px;
+
+                }
+
 
                 .games {
                     width: 220px;
                     margin-bottom: 48px;
-
+                    margin-left: 13px;
                     .imgBox {
                         border-radius: 4px;
                         overflow: hidden;
@@ -404,7 +426,6 @@ body {
                     &[type='text'] {
                         color: #f5f5f5;
                         font-size: 13px;
-                        // text-indent: 1em;
                     }
                 }
             }

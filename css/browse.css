@@ -31,6 +31,9 @@ body .popularType .mainBox {
 }
 body .popularType .mainBox .mainWrap {
   display: flex;
+  position: relative;
+  transition: left 400ms ease;
+  left: 0;
 }
 body .popularType .mainBox .mainWrap .items {
   width: 1427px;
@@ -177,11 +180,26 @@ body .main .allGameList .title .classList p.active {
 body .main .allGameList .gameListBox {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+}
+body .main .allGameList .gameListBox .noResTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  display: block;
+  color: #f5f5f5;
+}
+body .main .allGameList .gameListBox .noResText {
+  margin-top: 8px;
+  width: 100%;
+  color: #f5f5f599;
+  text-align: center;
+  font-size: 16px;
 }
 body .main .allGameList .gameListBox .games {
   width: 220px;
   margin-bottom: 48px;
+  margin-left: 13px;
 }
 body .main .allGameList .gameListBox .games .imgBox {
   border-radius: 4px;

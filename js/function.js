@@ -657,17 +657,13 @@ const page = {
             `
         }
         this.boxHtml = `
-        <a tagTpye='btn' class="pagePrev ${this.activeEle == 1 ? 'hide'
+        <a tagTpye='btn' class="pagePrev ${this.activeEle <= 1 ? 'hide'
                 : ''}">&lt;</a>${this.boxHtml}`
 
         this.boxHtml += `<a tagTpye='btn'  class="pageNext ${this.activeEle == this.data.length ? 'hide'
             : ''}">&gt;</a>`
 
         this.box.innerHTML = this.boxHtml
-
-        // this.box.querySelectorAll('[datapage]').forEach(item => {
-        //     item.href = '#'
-        // })
 
     },
     next() {
@@ -720,6 +716,7 @@ const filterData = {
         type: ["games"],//类别
         page: {}
     },
+
     filterCriteriaTotal() {
         let total = 0
         for (const key in this.filterCriteria) {
@@ -790,6 +787,30 @@ const filterData = {
 
         //点击重置按钮
         if (eClassList.contains('resize')) {
+
+            filterData.filterBtnPlay = {
+                platform: false,
+                feature: false,
+                genre: false,
+                event: false,
+                type: false,
+            };
+            filterData.filterCriteria= {//筛选的条件
+                price: [],//价格
+                genre: [],//游戏类型
+                feature: [],//特色
+                platform: [],//平台
+                event: [],//活动
+                type: ["games"],//类别
+                page: {}
+            },
+            page.activeEle = 1
+            page.data = splitArrayBrowse(arrFilterData(page.rawData.map(item => {
+                item.categories = item.categories.slice(0, 1)
+                return item
+            }), filterData.filterCriteria), 40)
+            filterData.filterHtmlRendering()
+            setUrlRefresh()
         }
 
 
@@ -799,15 +820,8 @@ const filterData = {
             let filterCriteriaKey = attri[0]
             let filterCriteriaValue = attri[1]
             toggleArrayItem(filterData.filterCriteria[filterCriteriaKey], filterCriteriaValue)
-            console.log(filterData.filterCriteria);
             page.activeEle = 1
-            // filterData.filterBtnPlay[filterCriteriaKey] = !filterData.filterBtnPlay[filterCriteriaKey]
             setUrlRefresh()
-
-
-
-
-
         }
 
     }
@@ -884,17 +898,39 @@ const arrFilterData = function arrFilterData(arr, obj) {
 const webRendering = function webRendering() {
 
     if (page.lookPage === 'browse') {
-        if (filterData.filterCriteriaTotal() === 1) {
+        if (filterData.filterCriteriaTotal() <= 1) {
+            browsePopularType.parentElement.parentElement.style.display = "block"
+
             browsePopularTypeRendering()
+        } else {
+            browsePopularType.parentElement.parentElement.style.display = "none"
         }
-        page.data = splitArrayBrowse(arrFilterData(page.rawData.map(item => {
+        let filtereDdata = arrFilterData(page.rawData.map(item => {
             item.categories = item.categories.slice(0, 1)
             return item
-        }), filterData.filterCriteria), 40)
-        page.total = page.data.length
-        browseDataRendering(page.data[page.activeEle - 1])
-        page.rander()
-        filterData.filterHtmlRendering()
+        }), filterData.filterCriteria)
+        if (filtereDdata == '') {
+            page.data = []
+            page.activeEle
+            page.total = page.activeEle = page.data.length
+            page.rander()
+            filterData.filterHtmlRendering()
+            console.log(21);
+            let gameListBox = document.querySelector('.gameListBox')
+            gameListBox.innerHTML = `
+            <h1 class="noResTitle"> 未找到结果</h1>
+            <p class="noResText">很遗憾，我没能找到与您搜索内容匹配的结果。</p>
+            `
+
+
+        } else {
+            page.data = splitArrayBrowse(filtereDdata, 40)
+            page.total = page.data.length
+            browseDataRendering(page.data[page.activeEle - 1])
+            page.rander()
+            filterData.filterHtmlRendering()
+        }
+
     } else {
 
         newRendering()
@@ -1013,14 +1049,12 @@ const newRendering = function newRendering() {
 const browsePopularTypeRendering = function browsePopularTypeRendering() {
     let htmlStr = ''
     page.browsePopularTypeData.forEach((item, index) => {
-        console.log(1221);
         htmlStr += `
         <div class="items">
         `
         // </div>
         // `
         item.forEach(items => {
-            console.log(items);
             htmlStr += `
             <a href="https://store.epicgames.com/zh-CN/c/${items.slug}" class="games hover">
                 <div class="imgBox">
@@ -1045,9 +1079,14 @@ const browsePopularTypeRendering = function browsePopularTypeRendering() {
             </div>
         `
     })
-    // let
     browsePopularType.innerHTML = htmlStr
-    // let prev = browsePopularType.
+    let addStr = browsePopularType.querySelectorAll(".items")[0].innerHTML
+    htmlStr += `
+    <div class="items">
+    ${addStr}
+    </div>`
+    browsePopularType.innerHTML = htmlStr
+    switchElementPopularType(browsePopularType, browsePopularTypePrev, browsePopularTypeNext)
 }
 
 
@@ -1056,33 +1095,32 @@ const switchElementPopularType = function switchElementPopularType(element, prev
     const children = element.children;
     const childWidth = children[0].offsetWidth;
     let currentIndex = 0;
-  
+
     // 点击向下切换的按钮
     nextButton.addEventListener('click', () => {
-      if (currentIndex < children.length - 1) {
         currentIndex++;
-      } else {
-        currentIndex = 0; // 切换到第一张
-      }
-      element.style.left = `-${currentIndex * childWidth}px`;
-      prevButton.disabled = false;
-      if (currentIndex === children.length - 1) {
-        nextButton.disabled = true;
-      }
+        if (currentIndex > children.length - 1) {
+            currentIndex = 0;
+            element.style.transitionDuration = '0s'
+            element.style.left = `-${currentIndex * childWidth}px`;
+            element.offsetWidth
+            currentIndex = 1;
+            element.style.transitionDuration = "400ms"
+        }
+        element.style.left = `-${currentIndex * childWidth}px`;
     });
-  
+
     // 点击向上切换的按钮
     prevButton.addEventListener('click', () => {
-      if (currentIndex > 0) {
         currentIndex--;
-      } else {
-        currentIndex = children.length - 1; // 切换到最后一张
-      }
-      element.style.left = `-${currentIndex * childWidth}px`;
-      nextButton.disabled = false;
-      if (currentIndex === 0) {
-        prevButton.disabled = true;
-      }
+        if (currentIndex < 0) {
+            currentIndex = children.length - 1;
+            element.style.transitionDuration = '0s'
+            element.style.left = `-${currentIndex * childWidth}px`;
+            element.offsetWidth
+            currentIndex = children.length - 2;
+            element.style.transitionDuration = "400ms"
+        }
+        element.style.left = `-${currentIndex * childWidth}px`;
     });
-  }
-  
+}

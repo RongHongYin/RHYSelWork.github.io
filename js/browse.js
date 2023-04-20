@@ -1,6 +1,8 @@
 let filter = document.querySelector('.filter');
 let browsePopularType = document.querySelector(".mainWrap")
-// let 
+let browsePopularTypePrev = document.querySelector(".popularType .title .toggleButton .prev")
+let browsePopularTypeNext = document.querySelector(".popularType .title .toggleButton .next")
+
 Promise.all([
     axios.get("browseNav.json"),
     axios.get("browse.json"),
@@ -17,6 +19,7 @@ Promise.all([
     const gameData = browseResponse;
     page.rawData = gameData;
     // 执行webRendering函数
+    
     return webRendering();
 }).catch(err => {
     console.log(err);
