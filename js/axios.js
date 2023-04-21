@@ -8,7 +8,7 @@ const isPlainObject = function isPlainObject(obj) {
   };
 
   axios.defaults.baseURL = './json/';
-  axios.defaults.timeout = 1000;
+  axios.defaults.timeout = 5000;
   axios.defaults.withCredentials = false;
   axios.defaults.validateStatus = function (status) {
     return status >= 200 && status < 400;

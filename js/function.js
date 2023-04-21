@@ -714,6 +714,7 @@ const filterData = {
         platform: [],//平台
         event: [],//活动
         type: ["games"],//类别
+        search: [],
         page: {}
     },
 
@@ -740,17 +741,17 @@ const filterData = {
             <button class="resize">重置</button>
         </div>
         <div class="gameSearch iconfont  icon-sousuo1">
-            <input type="text" class="searchText" placeholder="关键词">
+            <input type="text" class="searchText" value="${this.filterCriteria.search[0]?this.filterCriteria.search[0]:``}" placeholder="关键词">
         </div>
         `
+
+
         for (const key in this.filterHtmlData) {
             filter.innerHTML += `
             <div class="items" id="${key}">
                 <button dataType="${key}"  class="iconfont icon-youjiantou ${filterData.filterBtnPlay[key] ? 'clicked' : ''}">${this.filterHtmlData[key].title}</button>
             </div>
             `
-
-
 
             let filterKind = filter.querySelector(`#${key}`)
 
@@ -795,16 +796,17 @@ const filterData = {
                 event: false,
                 type: false,
             };
-            filterData.filterCriteria= {//筛选的条件
+            filterData.filterCriteria = {//筛选的条件
                 price: [],//价格
                 genre: [],//游戏类型
                 feature: [],//特色
                 platform: [],//平台
                 event: [],//活动
                 type: ["games"],//类别
+                search:[],
                 page: {}
             },
-            page.activeEle = 1
+                page.activeEle = 1
             page.data = splitArrayBrowse(arrFilterData(page.rawData.map(item => {
                 item.categories = item.categories.slice(0, 1)
                 return item
@@ -858,11 +860,12 @@ const urlDataGet = function urlDataGet() {
 }
 
 
+//数据筛选
 const arrFilterData = function arrFilterData(arr, obj) {
     return arr.filter(arrObj => {
 
-        const { tags, categories } = arrObj;
-        const { genre, feature, platform, event, type } = obj;
+        const { tags, categories, title } = arrObj;
+        const { genre, feature, platform, event, type, search } = obj;
 
         let shouldInclude = true;
 
@@ -888,7 +891,9 @@ const arrFilterData = function arrFilterData(arr, obj) {
             });
             shouldInclude = shouldInclude && matchedType;
         }
-
+        if (Array.isArray(search) && search.length > 0) {
+            shouldInclude = shouldInclude  && title.includes(search)
+        }
         return shouldInclude;
     });
 };
@@ -905,11 +910,11 @@ const webRendering = function webRendering() {
         } else {
             browsePopularType.parentElement.parentElement.style.display = "none"
         }
-        let filtereDdata = arrFilterData(page.rawData.map(item => {
+        let filteredData = arrFilterData(page.rawData.map(item => {
             item.categories = item.categories.slice(0, 1)
             return item
         }), filterData.filterCriteria)
-        if (filtereDdata == '') {
+        if (filteredData == '') {
             page.data = []
             page.activeEle
             page.total = page.activeEle = page.data.length
@@ -924,13 +929,24 @@ const webRendering = function webRendering() {
 
 
         } else {
-            page.data = splitArrayBrowse(filtereDdata, 40)
+            page.data = splitArrayBrowse(filteredData, 40)
             page.total = page.data.length
             browseDataRendering(page.data[page.activeEle - 1])
             page.rander()
             filterData.filterHtmlRendering()
         }
+        let filterSearch = filter.querySelector('input')
+        filter.querySelector('input').addEventListener("change", function () {
+            if(this.value === ''){
+                filterData.filterCriteria.search =[]
+            }else{
+                filterData.filterCriteria.search[0] = this.value
+            }
+            
+            page.activeEle = 1
+            setUrlRefresh()
 
+        }, false)
     } else {
 
         newRendering()
